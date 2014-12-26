@@ -42,6 +42,21 @@ Size: 28493
 MD5Sum: 9628098a64f9105b23d7822bf1e58b1d
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
+Package: binutils
+Version: 2.22-5
+Depends: libc, objdump
+Source: package/devel/binutils
+SourceFile: binutils-2.22.tar.bz2
+SourceURL: @GNU/binutils
+Section: devel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 895589
+Filename: binutils_2.22-5_ib42x0.ipk
+Size: 891597
+MD5Sum: d9084d6ee33335089b87d354dd89684c
+Description:  The Binutils package contains a linker, an assembler, and other tools for handling object files
+
 Package: blkid
 Version: 2.21.2-1
 Depends: libc, libblkid
@@ -1773,6 +1788,22 @@ Size: 101452
 MD5Sum: 59dc0a4bfcbfc7c42471ffb6a83bdcd4
 Description:  utility
 
+Package: gdb
+Version: 7.5-1
+Depends: libc, libthread-db, zlib, libreadline, libncurses, zlib
+Source: package/devel/gdb
+SourceFile: gdb-7.5.tar.bz2
+SourceURL: @GNU/gdb
+Section: devel
+Architecture: ib42x0
+Installed-Size: 1357741
+Filename: gdb_7.5-1_ib42x0.ipk
+Size: 1355347
+MD5Sum: e442309bc095dd6e7fed0d2b5e72ecea
+Description:  GDB, the GNU Project debugger, allows you to see what is going on `inside'
+ another program while it executes -- or what another program was doing at the
+ moment it crashed.
+
 Package: git
 Version: 1.7.11.2-1
 Depends: libc, libopenssl, libpthread
@@ -1788,6 +1819,18 @@ MD5Sum: 860ccc21918db43af4eb70c9b2c0f549
 Description:  Git is a free & open source, distributed version control system
  designed to handle everything from small to very large projects
  with speed and efficiency.
+
+Package: glibc-oabi
+Version: 1.0-1
+Depends: libc
+Source: feeds/addpack/glibc-oabi
+Section: devel
+Architecture: ib42x0
+Installed-Size: 858864
+Filename: glibc-oabi_1.0-1_ib42x0.ipk
+Size: 854588
+MD5Sum: b7fdfb393c183e86de308b8896f35948
+Description:  Glibc OABI version
 
 Package: gzip
 Version: 1.4-3
@@ -1827,10 +1870,10 @@ SourceURL: http://ipset.netfilter.org
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: ib42x0
-Installed-Size: 55375
+Installed-Size: 55380
 Filename: ipset_6.16.1-1_ib42x0.ipk
-Size: 55563
-MD5Sum: 305e98275c260afde33b86e5f402537b
+Size: 55566
+MD5Sum: f257fc90305935ff332178f9a3f4fae1
 Description:  IPset administration utility
 
 Package: jshn
@@ -1859,8 +1902,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 4509
 Filename: kmod-crypto-authenc_3.8.10-1_ib42x0.ipk
-Size: 5171
-MD5Sum: e3051b952429626251e4589c52c902e9
+Size: 5179
+MD5Sum: 3995e1c39ed35f5a2c98e4c3fa630aa0
 Description:  Combined mode wrapper for IPsec
 
 Package: kmod-crypto-cbc
@@ -1871,10 +1914,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 105
+Installed-Size: 104
 Filename: kmod-crypto-cbc_3.8.10-1_ib42x0.ipk
-Size: 665
-MD5Sum: eef4315b819572a247c592bc56406848
+Size: 666
+MD5Sum: 7b3ab58a53c89c7e6565167d91785207
 Description:  Cipher Block Chaining CryptoAPI module
 
 Package: kmod-crypto-core
@@ -1888,7 +1931,7 @@ Architecture: ib42x0
 Installed-Size: 104
 Filename: kmod-crypto-core_3.8.10-1_ib42x0.ipk
 Size: 638
-MD5Sum: bea026d0c8c17890b71ca1280c752ea2
+MD5Sum: 49aa0d0cd2b69ec7c8b25ed6072dae56
 Description:  Core CryptoAPI modules
 
 Package: kmod-crypto-deflate
@@ -1901,8 +1944,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 104
 Filename: kmod-crypto-deflate_3.8.10-1_ib42x0.ipk
-Size: 666
-MD5Sum: 24bd4ec764d61daca58a12b55035afce
+Size: 664
+MD5Sum: fa3bec793df236fd549b01688155cb45
 Description:  Deflate compression CryptoAPI module
 
 Package: kmod-crypto-des
@@ -1915,8 +1958,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 105
 Filename: kmod-crypto-des_3.8.10-1_ib42x0.ipk
-Size: 654
-MD5Sum: 6869610f2267b7371a7ed7e831ecdc5b
+Size: 653
+MD5Sum: 760908f9f357ff54adbca5c96905200a
 Description:  DES/3DES cipher CryptoAPI module
 
 Package: kmod-crypto-hash
@@ -1929,8 +1972,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 105
 Filename: kmod-crypto-hash_3.8.10-1_ib42x0.ipk
-Size: 647
-MD5Sum: 715a8026ee69d5f22a328d1480e0c902
+Size: 648
+MD5Sum: ee8050592a4f45985e2d9e150fb89b62
 Description:  CryptoAPI hash support
 
 Package: kmod-crypto-hmac
@@ -1943,8 +1986,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 104
 Filename: kmod-crypto-hmac_3.8.10-1_ib42x0.ipk
-Size: 659
-MD5Sum: 955e4b9bad5e53793ed75644fb4be29b
+Size: 658
+MD5Sum: fd4f55d2270503123a505cc2dff9a3f6
 Description:  HMAC digest CryptoAPI module
 
 Package: kmod-crypto-iv
@@ -1955,10 +1998,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 104
+Installed-Size: 105
 Filename: kmod-crypto-iv_3.8.10-1_ib42x0.ipk
-Size: 667
-MD5Sum: bd7c17de559aac46dd163d55c28a0c29
+Size: 669
+MD5Sum: 0f7be1ee61de44b36e44eb0e5c58fe1f
 Description:  CryptoAPI initialization vectors
 
 Package: kmod-crypto-manager
@@ -1971,8 +2014,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 105
 Filename: kmod-crypto-manager_3.8.10-1_ib42x0.ipk
-Size: 656
-MD5Sum: 9c0d5a1390a0d9dad04c5b9b0ea474c9
+Size: 655
+MD5Sum: 8af154fbe5f26ae50adf843ce9d67d3c
 Description:  CryptoAPI algorithm manager
 
 Package: kmod-crypto-md5
@@ -1983,10 +2026,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 105
+Installed-Size: 104
 Filename: kmod-crypto-md5_3.8.10-1_ib42x0.ipk
 Size: 656
-MD5Sum: ab85737deed4d3afbee098b923c5b7b5
+MD5Sum: d955702f28af0aca2af66a0675fc19e1
 Description:  MD5 digest CryptoAPI module
 
 Package: kmod-crypto-rng
@@ -1997,10 +2040,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 104
+Installed-Size: 105
 Filename: kmod-crypto-rng_3.8.10-1_ib42x0.ipk
-Size: 658
-MD5Sum: d7c2ca129b308a7478a3c6831b0956e2
+Size: 654
+MD5Sum: ba03a23a1aa7067fffefab9c6785a736
 Description:  CryptoAPI random number generation
 
 Package: kmod-crypto-sha1
@@ -2011,10 +2054,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 105
+Installed-Size: 104
 Filename: kmod-crypto-sha1_3.8.10-1_ib42x0.ipk
 Size: 656
-MD5Sum: 5192410de73e708e597be30a99f5576e
+MD5Sum: 0863d907d7c415296e4af65c618309d5
 Description:  SHA1 digest CryptoAPI module
 
 Package: kmod-crypto-user
@@ -2025,10 +2068,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 9671
+Installed-Size: 9664
 Filename: kmod-crypto-user_3.8.10-1_ib42x0.ipk
-Size: 10362
-MD5Sum: c961c55740d34d4fa61a737fedd45b2e
+Size: 10354
+MD5Sum: 21a1c0211f052677dbdc1e4c327ecc2c
 Description:  CryptoAPI userspace interface
 
 Package: kmod-crypto-wq
@@ -2039,10 +2082,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 104
+Installed-Size: 105
 Filename: kmod-crypto-wq_3.8.10-1_ib42x0.ipk
-Size: 648
-MD5Sum: a88c4e2707cb4b65691ff64446e19a0c
+Size: 651
+MD5Sum: a2683e62f3a07c8774dd3607e0ad3546
 Description:  CryptoAPI work queue handling
 
 Package: kmod-dm
@@ -2053,10 +2096,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 61851
+Installed-Size: 61853
 Filename: kmod-dm_3.8.10-1_ib42x0.ipk
-Size: 62596
-MD5Sum: 7a45efc151a1ade51a9ca6a8bbdea837
+Size: 62610
+MD5Sum: 683c08dec86f36e98fac40e110aa9dea
 Description:  Kernel module necessary for LVM2 support
 
 Package: kmod-input-core
@@ -2067,10 +2110,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 105
+Installed-Size: 104
 Filename: kmod-input-core_3.8.10-1_ib42x0.ipk
-Size: 652
-MD5Sum: b3cd332064caf2ecaaed197f0cae1634
+Size: 653
+MD5Sum: ef01c516c02f2c3b8ed520dddcadbe80
 Description:  Kernel modules for support of input device
 
 Package: kmod-ipsec4
@@ -2081,10 +2124,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 13576
+Installed-Size: 13575
 Filename: kmod-ipsec4_3.8.10-1_ib42x0.ipk
-Size: 14292
-MD5Sum: 5c237cbee20da9ee202250f340413baf
+Size: 14300
+MD5Sum: f003bba58045fca7016b53f4333bc01e
 Description:  Kernel modules for IPsec support in IPv4.
  Includes:
  - ah4
@@ -2103,10 +2146,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 14112
+Installed-Size: 14113
 Filename: kmod-ipsec6_3.8.10-1_ib42x0.ipk
-Size: 14843
-MD5Sum: 243f0429c1979dffe358bb9bb9998f95
+Size: 14845
+MD5Sum: e456a41f67ddd061e3acfaf9e9f8af98
 Description:  Kernel modules for IPsec support in IPv6.
  Includes:
  - ah6
@@ -2127,8 +2170,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 32985
 Filename: kmod-ipsec_3.8.10-1_ib42x0.ipk
-Size: 33808
-MD5Sum: b049470b3f2926cc230264a83697a1ec
+Size: 33810
+MD5Sum: b16d0ffe4cf6cd53eedcee49269d45c9
 Description:  Kernel modules for IPsec support in both IPv4 and IPv6.
  Includes:
  - af_key
@@ -2145,8 +2188,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 27494
 Filename: kmod-ipt-core_3.8.10-1_ib42x0.ipk
-Size: 28197
-MD5Sum: a162eb2c0b2265b3dc1564b776d01a41
+Size: 28198
+MD5Sum: 4e1737e1dc39b17f6fcf2a6b1b8bd0e9
 Description:  Netfilter core kernel modules
  Includes:
  - comment
@@ -2166,10 +2209,10 @@ SourceURL: http://ipset.netfilter.org
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: ib42x0
-Installed-Size: 86252
+Installed-Size: 86259
 Filename: kmod-ipt-ipset_3.8.10+6.16.1-1_ib42x0.ipk
-Size: 86677
-MD5Sum: 3d8f2c779b9a7d8014116660bed6176a
+Size: 86692
+MD5Sum: 78065aa922cfe17a9572736e162090de
 Description:  IPset netfilter modules
 
 Package: kmod-iptunnel4
@@ -2180,10 +2223,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 2045
+Installed-Size: 2044
 Filename: kmod-iptunnel4_3.8.10-1_ib42x0.ipk
-Size: 2692
-MD5Sum: 79a52560c8f6ea80e5634cd5cb1d4d61
+Size: 2687
+MD5Sum: 756dd21fad82ea974d0d0bf77637805e
 Description:  Kernel modules for IPv4 tunneling
 
 Package: kmod-iptunnel6
@@ -2194,10 +2237,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 2084
+Installed-Size: 2078
 Filename: kmod-iptunnel6_3.8.10-1_ib42x0.ipk
-Size: 2740
-MD5Sum: 8efc18197d175b0b30c1598d1f6dd0ae
+Size: 2729
+MD5Sum: 8210854545a5a7d95ebcecaf3832d1b1
 Description:  Kernel modules for IPv6 tunneling
 
 Package: kmod-ipv6
@@ -2208,10 +2251,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 138359
+Installed-Size: 138357
 Filename: kmod-ipv6_3.8.10-1_ib42x0.ipk
-Size: 138830
-MD5Sum: 0d554400d593e0884f1c626b25fe8435
+Size: 138858
+MD5Sum: fd7616035cca9135feff597ce6862fc3
 Description:  Kernel modules for IPv6 support
 
 Package: kmod-lib-zlib
@@ -2222,10 +2265,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 104
+Installed-Size: 105
 Filename: kmod-lib-zlib_3.8.10-1_ib42x0.ipk
-Size: 632
-MD5Sum: 70780e9eb310f08216340abd7152a80a
+Size: 633
+MD5Sum: 98ae42c890a579b1d0db81ada0e7553e
 Description:  Zlib support
 
 Package: kmod-nfnetlink
@@ -2238,8 +2281,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 2941
 Filename: kmod-nfnetlink_3.8.10-1_ib42x0.ipk
-Size: 3627
-MD5Sum: c16e1e4e198762ea55c59977b2a381f0
+Size: 3619
+MD5Sum: b243009a86b50b12f1d340478017ae4c
 Description:  Kernel modules support for a netlink-based userspace interface
 
 Package: kmod-sound-core
@@ -2250,10 +2293,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 119894
+Installed-Size: 119891
 Filename: kmod-sound-core_3.8.10-1_ib42x0.ipk
-Size: 120598
-MD5Sum: 6cdcebc5098c2ca12c9be289d70605d2
+Size: 120593
+MD5Sum: 02024f1f0f04ec51d8be6a1a6553288b
 Description:  Kernel modules for sound support
 
 Package: ldd
@@ -2935,6 +2978,20 @@ Size: 206443
 MD5Sum: 6a88d9d6d93b864e57d956747656ff0c
 Description:  GNU Standard C++ Library v3
 
+Package: libthread-db
+Version: 0.9.33.2-1
+Source: package/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 179
+Filename: libthread-db_0.9.33.2-1_ib42x0.ipk
+Size: 744
+MD5Sum: e2324bf36da52bc3a0d9dd745f65c4ad
+Description:  POSIX thread library debugging support
+
 Package: libtiff
 Version: 4.0.3-1
 Depends: libc, zlib, libjpeg
@@ -3105,6 +3162,20 @@ Description:  LVM2 refers to a new userspace toolset that provide logical volume
  facilities on linux. It is reasonably backwards-compatible with the original
  LVM toolset.
 
+Package: make
+Version: 3.81-1
+Depends: libc, libelf1
+Source: feeds/packages/devel/make
+SourceFile: make-3.81.tar.bz2
+SourceURL: @GNU/make
+Section: devel
+Architecture: ib42x0
+Installed-Size: 65049
+Filename: make_3.81-1_ib42x0.ipk
+Size: 65622
+MD5Sum: 6b71ed89f5333268fd6d50603ec3f050
+Description:  The Make package contains a program for compiling packages
+
 Package: mdadm
 Version: 3.2.6-1
 Depends: libc
@@ -3210,6 +3281,21 @@ Filename: netifd_2013-04-27-e33ab96c8b41867d655e2ee5e4f58a7d3101d9d2_ib42x0.ipk
 Size: 43113
 MD5Sum: ca847b9adada3236d55aaba382949e23
 Description:  OpenWrt Network Interface Configuration Daemon
+
+Package: objdump
+Version: 2.22-5
+Depends: libc, zlib
+Source: package/devel/binutils
+SourceFile: binutils-2.22.tar.bz2
+SourceURL: @GNU/binutils
+Section: devel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 409453
+Filename: objdump_2.22-5_ib42x0.ipk
+Size: 405901
+MD5Sum: 04912ad844259a0d325860761075154e
+Description:  objdump
 
 Package: opkg
 Version: 618-3
