@@ -1,0 +1,2491 @@
+Package: at
+Version: 3.1.13-1
+Depends: libc, libelf1
+Source: feeds/packages/utils/at
+SourceFile: at_3.1.13.orig.tar.gz
+SourceURL: http://ftp.debian.org/debian/pool/main/a/at
+Section: utils
+Maintainer: Luka Perkov <openwrt@lukaperkov.net>
+Architecture: ib42x0
+Installed-Size: 24894
+Filename: at_3.1.13-1_ib42x0.ipk
+Size: 25450
+MD5Sum: 915cc6692e3cd2c279f320935cdb7dba
+Description:  At and batch read shell commands from standard input storing them as a job to
+ be scheduled for execution in the future.
+
+Package: base-files
+Version: 137-r36486
+Depends: libc, netifd, procd
+Source: package/base-files
+Section: base
+Architecture: ib42x0
+Installed-Size: 27820
+Filename: base-files_137-r36486_ib42x0.ipk
+Size: 28493
+MD5Sum: 9628098a64f9105b23d7822bf1e58b1d
+Description:  This package contains a base filesystem and system scripts for OpenWrt.
+
+Package: blkid
+Version: 2.21.2-1
+Depends: libc, libblkid
+Source: package/util-linux
+SourceFile: util-linux-2.21.2.tar.xz
+SourceURL: @KERNEL/linux/utils/util-linux/v2.21
+License: GPLv2 LGPLv2.1 BSD-3c
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: ib42x0
+Installed-Size: 12329
+Filename: blkid_2.21.2-1_ib42x0.ipk
+Size: 13027
+MD5Sum: d19bf1b16fad03bed6bdabc75e7ec233
+Description:  The blkid program is the command-line interface to working with the libblkid
+ library.
+
+Package: block-mount
+Version: 0.2.0-10
+Depends: libc, blkid, swap-utils
+Source: package/block-mount
+Section: base
+Architecture: ib42x0
+Installed-Size: 6084
+Filename: block-mount_0.2.0-10_ib42x0.ipk
+Size: 6805
+MD5Sum: 42081930ce988a00619b976567f20615
+Description:  Scripts used to mount and check block devices (filesystems and swap), as well
+ as hotplug scripts to automount and check block devices when hotplug event (e.g.
+ from plugging in a device) occurs.
+ Also includes preinit scripts for mounting a block device as the root filesystem.
+ This allows one to have the root filesystem on devices other than the built in flash
+ device.
+
+Package: coreutils-base64
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 12076
+Filename: coreutils-base64_8.9-1_ib42x0.ipk
+Size: 12714
+MD5Sum: 236242c93382720fb832da69e5e26008
+Description:  Full version of standard GNU base64 utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-basename
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 9349
+Filename: coreutils-basename_8.9-1_ib42x0.ipk
+Size: 9960
+MD5Sum: 6566c622b9f8994179e3b10f2544c46d
+Description:  Full version of standard GNU basename utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-cat
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 15434
+Filename: coreutils-cat_8.9-1_ib42x0.ipk
+Size: 16010
+MD5Sum: cb5104e9ebf5264dd84d09b5ea5b67b9
+Description:  Full version of standard GNU cat utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-chcon
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 21210
+Filename: coreutils-chcon_8.9-1_ib42x0.ipk
+Size: 21810
+MD5Sum: 9112f4fc1fe07d8fc2efbe98084365e0
+Description:  Full version of standard GNU chcon utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-chgrp
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 23198
+Filename: coreutils-chgrp_8.9-1_ib42x0.ipk
+Size: 23826
+MD5Sum: c84bf8bb7e3d5c36a77ac83065898abb
+Description:  Full version of standard GNU chgrp utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-chmod
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 19951
+Filename: coreutils-chmod_8.9-1_ib42x0.ipk
+Size: 20615
+MD5Sum: cdf7d563b86d18a60ce534c469f36896
+Description:  Full version of standard GNU chmod utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-chown
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 24008
+Filename: coreutils-chown_8.9-1_ib42x0.ipk
+Size: 24555
+MD5Sum: 4329a2629c74ae90b829d59f29ff0df9
+Description:  Full version of standard GNU chown utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-chroot
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 11168
+Filename: coreutils-chroot_8.9-1_ib42x0.ipk
+Size: 11784
+MD5Sum: 761fd7d42d396cec5f6f2d700619f36d
+Description:  Full version of standard GNU chroot utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-cksum
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 10829
+Filename: coreutils-cksum_8.9-1_ib42x0.ipk
+Size: 11448
+MD5Sum: 97be2c7e6a978611d643c835aacade04
+Description:  Full version of standard GNU cksum utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-comm
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 11730
+Filename: coreutils-comm_8.9-1_ib42x0.ipk
+Size: 12353
+MD5Sum: ea6c17e5ca860841411c369e7abde340
+Description:  Full version of standard GNU comm utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-cp
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 36738
+Filename: coreutils-cp_8.9-1_ib42x0.ipk
+Size: 37353
+MD5Sum: 08b3572f5d70d1f46f5f2459a8fc0ddc
+Description:  Full version of standard GNU cp utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-csplit
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 43039
+Filename: coreutils-csplit_8.9-1_ib42x0.ipk
+Size: 43690
+MD5Sum: 8dd95e712d8a40f5c0430ed51cb68b35
+Description:  Full version of standard GNU csplit utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-cut
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 15777
+Filename: coreutils-cut_8.9-1_ib42x0.ipk
+Size: 16362
+MD5Sum: 832be148dcb40b155e70fe0bdef51729
+Description:  Full version of standard GNU cut utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-date
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 24526
+Filename: coreutils-date_8.9-1_ib42x0.ipk
+Size: 25144
+MD5Sum: 02cfc1183ca1883df1053edaed902dde
+Description:  Full version of standard GNU date utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-dd
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 20686
+Filename: coreutils-dd_8.9-1_ib42x0.ipk
+Size: 21282
+MD5Sum: 1e2740e22106d72b7c4a0b85c1382f89
+Description:  Full version of standard GNU dd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-dir
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 44766
+Filename: coreutils-dir_8.9-1_ib42x0.ipk
+Size: 45370
+MD5Sum: 558653446dad43c365ee3cc56939a104
+Description:  Full version of standard GNU dir utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-dircolors
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 13735
+Filename: coreutils-dircolors_8.9-1_ib42x0.ipk
+Size: 14384
+MD5Sum: 2a039f45adecd7b54c56f0dbd94cddd9
+Description:  Full version of standard GNU dircolors utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-dirname
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 9387
+Filename: coreutils-dirname_8.9-1_ib42x0.ipk
+Size: 10003
+MD5Sum: e337a90e4fbe0e5bff2c3eb7852fd3c9
+Description:  Full version of standard GNU dirname utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-du
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 41411
+Filename: coreutils-du_8.9-1_ib42x0.ipk
+Size: 41984
+MD5Sum: 1b5162f22ded49013c69e1a62ea426b1
+Description:  Full version of standard GNU du utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-echo
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 8083
+Filename: coreutils-echo_8.9-1_ib42x0.ipk
+Size: 8740
+MD5Sum: 0eb5cdc0d0f0ce9d1aba1ab835590a85
+Description:  Full version of standard GNU echo utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-env
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 9809
+Filename: coreutils-env_8.9-1_ib42x0.ipk
+Size: 10418
+MD5Sum: 6df6dd8e5b48c034cb8f076e702faac9
+Description:  Full version of standard GNU env utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-expand
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 10670
+Filename: coreutils-expand_8.9-1_ib42x0.ipk
+Size: 11280
+MD5Sum: cd71fa84e17cf73b1ad76809ecf63469
+Description:  Full version of standard GNU expand utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-expr
+Version: 8.9-1
+Depends: libc, coreutils, libgmp
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 39286
+Filename: coreutils-expr_8.9-1_ib42x0.ipk
+Size: 39972
+MD5Sum: 3876b13c541cb0acb59b049c8e43ad9b
+Description:  Full version of standard GNU expr utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-factor
+Version: 8.9-1
+Depends: libc, coreutils, libgmp
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 18213
+Filename: coreutils-factor_8.9-1_ib42x0.ipk
+Size: 18815
+MD5Sum: b601036cc8b0018b693ea30d38b08391
+Description:  Full version of standard GNU factor utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-false
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 6913
+Filename: coreutils-false_8.9-1_ib42x0.ipk
+Size: 7571
+MD5Sum: c7646623a504064961a82204d6e82fdf
+Description:  Full version of standard GNU false utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-fmt
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 12902
+Filename: coreutils-fmt_8.9-1_ib42x0.ipk
+Size: 13518
+MD5Sum: d5ffa978d4c14fbadd6cbee4abef7c5b
+Description:  Full version of standard GNU fmt utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-fold
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 10716
+Filename: coreutils-fold_8.9-1_ib42x0.ipk
+Size: 11323
+MD5Sum: 02f00350cf2b6a9f8884c97732d9ad93
+Description:  Full version of standard GNU fold utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-groups
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 9969
+Filename: coreutils-groups_8.9-1_ib42x0.ipk
+Size: 10593
+MD5Sum: 805d9b19560a2c9b55e555be19c3de27
+Description:  Full version of standard GNU groups utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-head
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 13907
+Filename: coreutils-head_8.9-1_ib42x0.ipk
+Size: 14547
+MD5Sum: 09d7f72ea9efbfe5bf5e85d5117ab582
+Description:  Full version of standard GNU head utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-hostid
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 8942
+Filename: coreutils-hostid_8.9-1_ib42x0.ipk
+Size: 9611
+MD5Sum: b4147bdd3d35978c34d9489b079da4f7
+Description:  Full version of standard GNU hostid utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-id
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 10951
+Filename: coreutils-id_8.9-1_ib42x0.ipk
+Size: 11564
+MD5Sum: 3b3496951fc6fde0344b675ccd7ed58c
+Description:  Full version of standard GNU id utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-install
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 40728
+Filename: coreutils-install_8.9-1_ib42x0.ipk
+Size: 41322
+MD5Sum: 5578e118eabde4fbb98c62a7aabc327f
+Description:  Full version of standard GNU install utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-join
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 15101
+Filename: coreutils-join_8.9-1_ib42x0.ipk
+Size: 15678
+MD5Sum: 2f133ae2eda8bc4e212d516c6d4622ae
+Description:  Full version of standard GNU join utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-kill
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 11089
+Filename: coreutils-kill_8.9-1_ib42x0.ipk
+Size: 11692
+MD5Sum: 245aafb3b4c6cf22e7980b65a57fb150
+Description:  Full version of standard GNU kill utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-link
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 9358
+Filename: coreutils-link_8.9-1_ib42x0.ipk
+Size: 9960
+MD5Sum: cf9421a84dccebad3ced9ca69f7a68ed
+Description:  Full version of standard GNU link utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-ln
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 20375
+Filename: coreutils-ln_8.9-1_ib42x0.ipk
+Size: 20988
+MD5Sum: 8bd7b6645ae8e899473bb4758ec32952
+Description:  Full version of standard GNU ln utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-logname
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 8957
+Filename: coreutils-logname_8.9-1_ib42x0.ipk
+Size: 9623
+MD5Sum: a85a9306243f0b671ec820990d4d4542
+Description:  Full version of standard GNU logname utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-ls
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 44765
+Filename: coreutils-ls_8.9-1_ib42x0.ipk
+Size: 45366
+MD5Sum: 5ae56dff452e17b3f037c118c1443381
+Description:  Full version of standard GNU ls utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-md5sum
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 14465
+Filename: coreutils-md5sum_8.9-1_ib42x0.ipk
+Size: 15103
+MD5Sum: 39b413e57a3bce3deb1639e291d20b51
+Description:  Full version of standard GNU md5sum utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-mkdir
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 18485
+Filename: coreutils-mkdir_8.9-1_ib42x0.ipk
+Size: 19139
+MD5Sum: 4feaf3a6b0995469a9e3fb931190f9c6
+Description:  Full version of standard GNU mkdir utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-mkfifo
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 10121
+Filename: coreutils-mkfifo_8.9-1_ib42x0.ipk
+Size: 10730
+MD5Sum: cb76a5f5e2f16c90909b8bb933688a18
+Description:  Full version of standard GNU mkfifo utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-mknod
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 11595
+Filename: coreutils-mknod_8.9-1_ib42x0.ipk
+Size: 12224
+MD5Sum: 37500784482d5c6e9bd3ac224dc34b9c
+Description:  Full version of standard GNU mknod utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-mktemp
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 14043
+Filename: coreutils-mktemp_8.9-1_ib42x0.ipk
+Size: 14682
+MD5Sum: 2ae999d86c13e2346e75928b2f3b933c
+Description:  Full version of standard GNU mktemp utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-mv
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 36870
+Filename: coreutils-mv_8.9-1_ib42x0.ipk
+Size: 37466
+MD5Sum: d9b3db1a771e31e270d76ced192fd58b
+Description:  Full version of standard GNU mv utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-nice
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 10211
+Filename: coreutils-nice_8.9-1_ib42x0.ipk
+Size: 10817
+MD5Sum: 324aef5cfb54f69f3b16cae698665ab6
+Description:  Full version of standard GNU nice utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-nl
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 39900
+Filename: coreutils-nl_8.9-1_ib42x0.ipk
+Size: 40552
+MD5Sum: 1c74f721589da1e5cb45ab4cb9a06b50
+Description:  Full version of standard GNU nl utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-nohup
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 10521
+Filename: coreutils-nohup_8.9-1_ib42x0.ipk
+Size: 11121
+MD5Sum: 31b327cad585d2ee502bbbd11b8e76f9
+Description:  Full version of standard GNU nohup utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-nproc
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 10096
+Filename: coreutils-nproc_8.9-1_ib42x0.ipk
+Size: 10705
+MD5Sum: c2b3ba6df81d36fae18213737dcb9388
+Description:  Full version of standard GNU nproc utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-od
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 25250
+Filename: coreutils-od_8.9-1_ib42x0.ipk
+Size: 25802
+MD5Sum: 3887403394a3b4e99e5d5d887b5caa19
+Description:  Full version of standard GNU od utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-paste
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 10612
+Filename: coreutils-paste_8.9-1_ib42x0.ipk
+Size: 11219
+MD5Sum: e92e58d8fe9182a9ecef408a030762a4
+Description:  Full version of standard GNU paste utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-pathchk
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 9988
+Filename: coreutils-pathchk_8.9-1_ib42x0.ipk
+Size: 10587
+MD5Sum: 736a68be7a4f8aeb6819155fa66eba40
+Description:  Full version of standard GNU pathchk utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-pinky
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 12143
+Filename: coreutils-pinky_8.9-1_ib42x0.ipk
+Size: 12767
+MD5Sum: 6e13bc71cc3078aced58692623b93152
+Description:  Full version of standard GNU pinky utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-pr
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 23792
+Filename: coreutils-pr_8.9-1_ib42x0.ipk
+Size: 24379
+MD5Sum: 0a7b3e4ad2945e8f4e68e0a4ea638c7e
+Description:  Full version of standard GNU pr utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-printenv
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 9302
+Filename: coreutils-printenv_8.9-1_ib42x0.ipk
+Size: 9917
+MD5Sum: 8c2e51adc2f3d82c82df2d2038303a23
+Description:  Full version of standard GNU printenv utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-printf
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 17069
+Filename: coreutils-printf_8.9-1_ib42x0.ipk
+Size: 17710
+MD5Sum: 6cf0c8bbaf0c7b707e3322c42ec0813e
+Description:  Full version of standard GNU printf utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-ptx
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 48230
+Filename: coreutils-ptx_8.9-1_ib42x0.ipk
+Size: 48933
+MD5Sum: 64c5f584ee1c25d204fa9c27e908144b
+Description:  Full version of standard GNU ptx utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-pwd
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 12504
+Filename: coreutils-pwd_8.9-1_ib42x0.ipk
+Size: 13115
+MD5Sum: e9092f84183ed1c6cbf4ae7d5b4e5bfb
+Description:  Full version of standard GNU pwd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-readlink
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 14449
+Filename: coreutils-readlink_8.9-1_ib42x0.ipk
+Size: 15043
+MD5Sum: 34c8a883c765504800b393926d9be2c3
+Description:  Full version of standard GNU readlink utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-rm
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 21812
+Filename: coreutils-rm_8.9-1_ib42x0.ipk
+Size: 22409
+MD5Sum: 4270cbff3f98af4a4a8bdacd22a9c7fa
+Description:  Full version of standard GNU rm utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-rmdir
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 15478
+Filename: coreutils-rmdir_8.9-1_ib42x0.ipk
+Size: 16019
+MD5Sum: b0154fd632b1727cbcf65049994d8f98
+Description:  Full version of standard GNU rmdir utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-runcon
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 9874
+Filename: coreutils-runcon_8.9-1_ib42x0.ipk
+Size: 10486
+MD5Sum: f7596f0f5b1cfd7bebc57f36fb391159
+Description:  Full version of standard GNU runcon utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-seq
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 16570
+Filename: coreutils-seq_8.9-1_ib42x0.ipk
+Size: 17155
+MD5Sum: 4ccefdcf71d0e82c5b2808d795c30429
+Description:  Full version of standard GNU seq utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-sha1sum
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 15997
+Filename: coreutils-sha1sum_8.9-1_ib42x0.ipk
+Size: 16594
+MD5Sum: fd48fd7f9aeeb61923d6b6c52ba44366
+Description:  Full version of standard GNU sha1sum utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-sha224sum
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 17789
+Filename: coreutils-sha224sum_8.9-1_ib42x0.ipk
+Size: 18441
+MD5Sum: ca6143f7ac50e400b6984682c0c19f39
+Description:  Full version of standard GNU sha224sum utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-sha256sum
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 17791
+Filename: coreutils-sha256sum_8.9-1_ib42x0.ipk
+Size: 18445
+MD5Sum: e8138fad6c504040a1b43b675c6db904
+Description:  Full version of standard GNU sha256sum utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-sha384sum
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 35412
+Filename: coreutils-sha384sum_8.9-1_ib42x0.ipk
+Size: 35955
+MD5Sum: 84e4911208342908396eaa4ee298a3e6
+Description:  Full version of standard GNU sha384sum utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-sha512sum
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 35407
+Filename: coreutils-sha512sum_8.9-1_ib42x0.ipk
+Size: 35973
+MD5Sum: ab2edde5136acd799e65d65e8991db75
+Description:  Full version of standard GNU sha512sum utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-shred
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 24843
+Filename: coreutils-shred_8.9-1_ib42x0.ipk
+Size: 25464
+MD5Sum: a4714c69c9d99130ba921b5f2b27d64f
+Description:  Full version of standard GNU shred utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-shuf
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 14150
+Filename: coreutils-shuf_8.9-1_ib42x0.ipk
+Size: 14790
+MD5Sum: 5dd44f4aa367b3acb2c1b941c4f61c72
+Description:  Full version of standard GNU shuf utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-sleep
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 11610
+Filename: coreutils-sleep_8.9-1_ib42x0.ipk
+Size: 12228
+MD5Sum: a798360329c49b2008d929a05dc7761b
+Description:  Full version of standard GNU sleep utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-sort
+Version: 8.9-1
+Depends: libc, coreutils, libpthread
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 40118
+Filename: coreutils-sort_8.9-1_ib42x0.ipk
+Size: 40822
+MD5Sum: 9ea227410e89ce7c62f02d9764445e91
+Description:  Full version of standard GNU sort utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-split
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 20021
+Filename: coreutils-split_8.9-1_ib42x0.ipk
+Size: 20614
+MD5Sum: 4a5c35f098d0242aba5690aa93446cae
+Description:  Full version of standard GNU split utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-stat
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 31969
+Filename: coreutils-stat_8.9-1_ib42x0.ipk
+Size: 32623
+MD5Sum: 387ea571560cd5e562f57b8eb6e69ded
+Description:  Full version of standard GNU stat utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-stdbuf
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 21402
+Filename: coreutils-stdbuf_8.9-1_ib42x0.ipk
+Size: 22026
+MD5Sum: d5a041c7f51da93fe60ae49765d54c23
+Description:  Full version of standard GNU stdbuf utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-stty
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 23543
+Filename: coreutils-stty_8.9-1_ib42x0.ipk
+Size: 24106
+MD5Sum: edacc9806b6127bad0a16357aa4e39a4
+Description:  Full version of standard GNU stty utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-sum
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 13044
+Filename: coreutils-sum_8.9-1_ib42x0.ipk
+Size: 13687
+MD5Sum: 727fbe97afd1834c270f036cf6ab90ce
+Description:  Full version of standard GNU sum utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-sync
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 8891
+Filename: coreutils-sync_8.9-1_ib42x0.ipk
+Size: 9554
+MD5Sum: 33dbf2578bfb23f4efe286b287210200
+Description:  Full version of standard GNU sync utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-tac
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 41013
+Filename: coreutils-tac_8.9-1_ib42x0.ipk
+Size: 41655
+MD5Sum: 0f595cc7eb78579915ab730f66d31dc7
+Description:  Full version of standard GNU tac utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-tail
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 24929
+Filename: coreutils-tail_8.9-1_ib42x0.ipk
+Size: 25555
+MD5Sum: 7f966aeeebb41550b0de38af7ec71a7b
+Description:  Full version of standard GNU tail utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-tee
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 10073
+Filename: coreutils-tee_8.9-1_ib42x0.ipk
+Size: 10682
+MD5Sum: ac4518aae5d9265ef8d54cd075f3e020
+Description:  Full version of standard GNU tee utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-test
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 10459
+Filename: coreutils-test_8.9-1_ib42x0.ipk
+Size: 11076
+MD5Sum: a856bfb2d57f6d54f2b7ab0ccb9c8fe7
+Description:  Full version of standard GNU test utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-timeout
+Version: 8.9-1
+Depends: libc, coreutils, librt
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 15941
+Filename: coreutils-timeout_8.9-1_ib42x0.ipk
+Size: 16544
+MD5Sum: af692efd32539135dd45d51377c46a19
+Description:  Full version of standard GNU timeout utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-touch
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 23717
+Filename: coreutils-touch_8.9-1_ib42x0.ipk
+Size: 24339
+MD5Sum: 589cade5efad19bd3256be33bb8bee67
+Description:  Full version of standard GNU touch utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-tr
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 16037
+Filename: coreutils-tr_8.9-1_ib42x0.ipk
+Size: 16626
+MD5Sum: b554ffa2739b83f69730941a6b4313a2
+Description:  Full version of standard GNU tr utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-true
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 6915
+Filename: coreutils-true_8.9-1_ib42x0.ipk
+Size: 7577
+MD5Sum: bae75b68150d814af9d9fbc649906f32
+Description:  Full version of standard GNU true utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-truncate
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 15765
+Filename: coreutils-truncate_8.9-1_ib42x0.ipk
+Size: 16352
+MD5Sum: 6c020f7626aa47fb3903a2674c2e5150
+Description:  Full version of standard GNU truncate utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-tsort
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 11260
+Filename: coreutils-tsort_8.9-1_ib42x0.ipk
+Size: 11882
+MD5Sum: 1554b7357a8701646f83a85bdcb31163
+Description:  Full version of standard GNU tsort utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-tty
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 9086
+Filename: coreutils-tty_8.9-1_ib42x0.ipk
+Size: 9702
+MD5Sum: a23defea577b71d03e1f5e32624670ea
+Description:  Full version of standard GNU tty utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-uname
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 9759
+Filename: coreutils-uname_8.9-1_ib42x0.ipk
+Size: 10373
+MD5Sum: 8ba2e09f02a5d6ef0810aaf77e01ed9b
+Description:  Full version of standard GNU uname utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-unexpand
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 11055
+Filename: coreutils-unexpand_8.9-1_ib42x0.ipk
+Size: 11704
+MD5Sum: bc4f045166c5f4ccf3aed7286e95368d
+Description:  Full version of standard GNU unexpand utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-uniq
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 13510
+Filename: coreutils-uniq_8.9-1_ib42x0.ipk
+Size: 14151
+MD5Sum: 4998f00bebbf508dd72a74904b1b98a6
+Description:  Full version of standard GNU uniq utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-unlink
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 9220
+Filename: coreutils-unlink_8.9-1_ib42x0.ipk
+Size: 9839
+MD5Sum: 581ec3582d1080298652b07e89a7aee5
+Description:  Full version of standard GNU unlink utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-uptime
+Version: 8.9-1
+Depends: libc, coreutils, libelf1
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 16853
+Filename: coreutils-uptime_8.9-1_ib42x0.ipk
+Size: 17461
+MD5Sum: 76ebcad0868ec4a0247e7edde1185fe4
+Description:  Full version of standard GNU uptime utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-users
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 9754
+Filename: coreutils-users_8.9-1_ib42x0.ipk
+Size: 10373
+MD5Sum: 55bc54bbbd51e2f2f5a3d794a6b2b8b5
+Description:  Full version of standard GNU users utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-vdir
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 44767
+Filename: coreutils-vdir_8.9-1_ib42x0.ipk
+Size: 45368
+MD5Sum: f7b404d4a44893fe4d1a1d8562d51d4b
+Description:  Full version of standard GNU vdir utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-wc
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 14133
+Filename: coreutils-wc_8.9-1_ib42x0.ipk
+Size: 14741
+MD5Sum: ba7b9f48040727dd037daeb5c95fd88d
+Description:  Full version of standard GNU wc utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-who
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 18579
+Filename: coreutils-who_8.9-1_ib42x0.ipk
+Size: 19165
+MD5Sum: 1b5b185acfd87f82cfe7e48395720450
+Description:  Full version of standard GNU who utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-whoami
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 9107
+Filename: coreutils-whoami_8.9-1_ib42x0.ipk
+Size: 9722
+MD5Sum: c4adb760f861075a16556ea3ff009edd
+Description:  Full version of standard GNU whoami utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-yes
+Version: 8.9-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 9145
+Filename: coreutils-yes_8.9-1_ib42x0.ipk
+Size: 9761
+MD5Sum: 409ee69880ec5623bec549c34f3d5577
+Description:  Full version of standard GNU yes utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils
+Version: 8.9-1
+Depends: libc
+Source: feeds/packages/utils/coreutils
+SourceFile: coreutils-8.9.tar.xz
+SourceURL: @GNU/coreutils
+Section: utils
+Architecture: ib42x0
+Installed-Size: 105
+Filename: coreutils_8.9-1_ib42x0.ipk
+Size: 711
+MD5Sum: 72398aba6a98ccc50f527d03e1137c97
+Description:  Full versions of standard GNU utilities. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient and
+ smaller.
+
+Package: dbus-utils
+Version: 1.4.14-2
+Depends: libc, dbus
+Source: feeds/packages/utils/dbus
+SourceFile: dbus-1.4.14.tar.gz
+SourceURL: http://dbus.freedesktop.org/releases/dbus/
+Section: utils
+Architecture: ib42x0
+Installed-Size: 11838
+Filename: dbus-utils_1.4.14-2_ib42x0.ipk
+Size: 12435
+MD5Sum: 3915cecfb517be857ac15d2ed3ae8f95
+Description:  Simple interprocess messaging system (utilities)
+
+Package: dbus
+Version: 1.4.14-2
+Depends: libc, libexpat, libdbus
+Source: feeds/packages/utils/dbus
+SourceFile: dbus-1.4.14.tar.gz
+SourceURL: http://dbus.freedesktop.org/releases/dbus/
+Section: utils
+Architecture: ib42x0
+Installed-Size: 251568
+Filename: dbus_1.4.14-2_ib42x0.ipk
+Size: 251903
+MD5Sum: 68306c88274472d3290bc4a1f8aa7fc9
+Description:  Simple interprocess messaging system (daemon)
+
+Package: dnsmasq
+Version: 2.66-1
+Depends: libc
+Source: package/network/services/dnsmasq
+SourceFile: dnsmasq-2.66.tar.gz
+SourceURL: http://thekelleys.org.uk/dnsmasq
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Architecture: ib42x0
+Installed-Size: 86115
+Filename: dnsmasq_2.66-1_ib42x0.ipk
+Size: 86656
+MD5Sum: ee3eed5bcba1ed59c02f8bf813352664
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+
+Package: iconv
+Version: 1.11.1-1
+Depends: libc, libiconv-full, libcharset
+Source: package/libs/libiconv-full
+SourceFile: libiconv-1.11.1.tar.gz
+SourceURL: @GNU/libiconv
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 10141
+Filename: iconv_1.11.1-1_ib42x0.ipk
+Size: 10738
+MD5Sum: 7742c59191e0edfab3bf4b257daa83a5
+Description:  Character set conversion utility
+
+Package: jshn
+Version: 2013-04-15-dcf93f332270bdaddb5d24fdba6e3eb5b1f7d80a
+Depends: libc, libjson
+Source: package/libs/libubox
+SourceFile: libubox-2013-04-15-dcf93f332270bdaddb5d24fdba6e3eb5b1f7d80a.tar.gz
+SourceURL: git://nbd.name/luci2/libubox.git
+License: ISC BSD-3c
+Section: utils
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 5098
+Filename: jshn_2013-04-15-dcf93f332270bdaddb5d24fdba6e3eb5b1f7d80a_ib42x0.ipk
+Size: 5760
+MD5Sum: b30a1afc9b96a463dd66e691979ce6cb
+Description:  Library for parsing and generating JSON from shell scripts
+
+Package: ldd
+Version: 0.9.33.2-1
+Source: package/toolchain
+Section: utils
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 4789
+Filename: ldd_0.9.33.2-1_ib42x0.ipk
+Size: 5322
+MD5Sum: 25addcbb6d6067dfb2723dc082d125bd
+Description:  LDD trace utility
+
+Package: libblkid
+Version: 2.21.2-1
+Depends: libc, libuuid
+Source: package/util-linux
+SourceFile: util-linux-2.21.2.tar.xz
+SourceURL: @KERNEL/linux/utils/util-linux/v2.21
+License: GPLv2 LGPLv2.1 BSD-3c
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+Architecture: ib42x0
+Installed-Size: 127782
+Filename: libblkid_2.21.2-1_ib42x0.ipk
+Size: 128308
+MD5Sum: 6b6e1ec584c5916baf7b219d2a23b5cc
+Description:  The libblkid library is used to identify block devices (disks) as to their
+ content (e.g. filesystem type, partitions) as well as extracting additional
+ information such as filesystem labels/volume names, partitions, unique
+ identifiers/serial numbers...
+
+Package: libblobmsg-json
+Version: 2013-04-15-dcf93f332270bdaddb5d24fdba6e3eb5b1f7d80a
+Depends: libc, libjson, libubox
+Source: package/libs/libubox
+SourceFile: libubox-2013-04-15-dcf93f332270bdaddb5d24fdba6e3eb5b1f7d80a.tar.gz
+SourceURL: git://nbd.name/luci2/libubox.git
+License: ISC BSD-3c
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 3400
+Filename: libblobmsg-json_2013-04-15-dcf93f332270bdaddb5d24fdba6e3eb5b1f7d80a_ib42x0.ipk
+Size: 4079
+MD5Sum: f66ac054efb4691b8720ea1ff03ff99f
+Description:  blobmsg <-> json conversion library
+
+Package: libcharset
+Version: 1.11.1-1
+Depends: libc
+Source: package/libs/libiconv-full
+SourceFile: libiconv-1.11.1.tar.gz
+SourceURL: @GNU/libiconv
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 3043
+Filename: libcharset_1.11.1-1_ib42x0.ipk
+Size: 3650
+MD5Sum: 32bcba73d690ffb0cf37ababc36c1d32
+Description:  Character set conversion library
+
+Package: libcom_err
+Version: 1.42.4-1
+Depends: libc, libpthread
+Source: package/system/utils/e2fsprogs
+SourceFile: e2fsprogs-1.42.4.tar.gz
+SourceURL: @SF/e2fsprogs
+Section: libs
+Architecture: ib42x0
+Installed-Size: 4223
+Filename: libcom_err_1.42.4-1_ib42x0.ipk
+Size: 4776
+MD5Sum: c2730068256e2766b189a7f8ae47ea66
+Description:  libcom_err is a library providing common error descriptions
+
+Package: libdbus
+Version: 1.4.14-2
+Depends: libc, librt
+Source: feeds/packages/utils/dbus
+SourceFile: dbus-1.4.14.tar.gz
+SourceURL: http://dbus.freedesktop.org/releases/dbus/
+Section: utils
+Architecture: ib42x0
+Installed-Size: 97540
+Filename: libdbus_1.4.14-2_ib42x0.ipk
+Size: 97740
+MD5Sum: 491618bf69b7f67b126896c49e8ef2fe
+Description:  Simple interprocess messaging system (library)
+
+Package: libelf1
+Version: 0.155-1
+Depends: libc
+Source: feeds/packages/libs/elfutils
+SourceFile: elfutils-0.155.tar.bz2
+SourceURL: http://fedorahosted.org/releases/e/l/elfutils/0.155
+Section: libs
+Architecture: ib42x0
+Installed-Size: 33251
+Filename: libelf1_0.155-1_ib42x0.ipk
+Size: 33876
+MD5Sum: 574c6750f333816877a4d5b421229d48
+Description:  ELF manipulation libraries (libelf)
+
+Package: libexpat
+Version: 2.0.1-1
+Depends: libc
+Source: feeds/packages/libs/expat
+SourceFile: expat-2.0.1.tar.gz
+SourceURL: @SF/expat
+License: MIT
+Section: libs
+Architecture: ib42x0
+Installed-Size: 43775
+Filename: libexpat_2.0.1-1_ib42x0.ipk
+Size: 44284
+MD5Sum: 935d849f8f8adef80be7a882f1dab66f
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libext2fs
+Version: 1.42.4-1
+Depends: libc, libcom_err
+Source: package/system/utils/e2fsprogs
+SourceFile: e2fsprogs-1.42.4.tar.gz
+SourceURL: @SF/e2fsprogs
+Section: libs
+Architecture: ib42x0
+Installed-Size: 106508
+Filename: libext2fs_1.42.4-1_ib42x0.ipk
+Size: 106848
+MD5Sum: d792e279e12aa0f7195884f6d97674f0
+Description:  libext2fs is a library which can access ext2, ext3 and ext4 filesystems.
+
+Package: libgcc
+Version: 4.6-linaro-1
+Source: package/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 20585
+Filename: libgcc_4.6-linaro-1_ib42x0.ipk
+Size: 21174
+MD5Sum: a70bdfa9a3cf02ab4dc7d2c04482476e
+Description:  GCC support library
+
+Package: libgmp
+Version: 5.1.0-1
+Depends: libc
+Source: feeds/packages/libs/gmp
+SourceFile: gmp-5.1.0.tar.bz2
+SourceURL: ftp://ftp.gmplib.org/pub/gmp-5.1.0/
+Section: libs
+Architecture: ib42x0
+Installed-Size: 182873
+Filename: libgmp_5.1.0-1_ib42x0.ipk
+Size: 183275
+MD5Sum: 67571ab4ed1d757c536de008cfcf7802
+Description:  GMP is a free library for arbitrary precision arithmetic, operating on
+ signed integers, rational numbers, and floating point numbers.
+
+Package: libgssglue
+Version: 0.4-1
+Depends: libc
+Source: feeds/addpack/libgssglue
+SourceFile: libgssglue-0.4.tar.gz
+SourceURL: http://www.citi.umich.edu/projects/nfsv4/linux/libgssglue/
+Section: libs
+Architecture: ib42x0
+Installed-Size: 11805
+Filename: libgssglue_0.4-1_ib42x0.ipk
+Size: 12398
+MD5Sum: eec1008983bc64ce50e27a08a97bd3ae
+Description:  Library libgssglue
+
+Package: libiconv-full
+Version: 1.11.1-1
+Depends: libc
+Source: package/libs/libiconv-full
+SourceFile: libiconv-1.11.1.tar.gz
+SourceURL: @GNU/libiconv
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 12149
+Filename: libiconv-full_1.11.1-1_ib42x0.ipk
+Size: 12758
+MD5Sum: 1bf7b25b6390c28932a03c8489546db5
+Description:  Character set conversion library
+
+Package: libjpeg
+Version: 6b-1
+Depends: libc
+Source: feeds/packages/libs/jpeg
+SourceFile: jpegsrc.v6b.tar.gz
+SourceURL: http://www.ijg.org/files/ ftp://ftp.uu.net/graphics/jpeg/
+License: FREE
+LicenseFiles: README
+Section: libs
+Architecture: ib42x0
+Installed-Size: 54310
+Filename: libjpeg_6b-1_ib42x0.ipk
+Size: 54962
+MD5Sum: 3fcbfe5ab66f4898aa6b9f4efc9c8a82
+Description:  The Independent JPEG Group's JPEG runtime library
+
+Package: libjson-script
+Version: 2013-04-15-dcf93f332270bdaddb5d24fdba6e3eb5b1f7d80a
+Depends: libc, libubox
+Source: package/libs/libubox
+SourceFile: libubox-2013-04-15-dcf93f332270bdaddb5d24fdba6e3eb5b1f7d80a.tar.gz
+SourceURL: git://nbd.name/luci2/libubox.git
+License: ISC BSD-3c
+Section: utils
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 4372
+Filename: libjson-script_2013-04-15-dcf93f332270bdaddb5d24fdba6e3eb5b1f7d80a_ib42x0.ipk
+Size: 5012
+MD5Sum: cf82287391473515312c7d648809a417
+Description:  Minimalistic JSON based scripting engine
+
+Package: libjson
+Version: 0.9-2
+Depends: libc
+Source: package/libs/libjson-c
+SourceFile: json-c-0.9.tar.gz
+SourceURL: http://oss.metaparadigm.com/json-c/
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 9259
+Filename: libjson_0.9-2_ib42x0.ipk
+Size: 9913
+MD5Sum: 197296b5b72780802c20f49029038cd6
+Description:  This package contains a library for javascript object notation backends.
+
+Package: libnl-tiny
+Version: 0.1-3
+Depends: libc
+Source: package/libs/libnl-tiny
+License: GPLv2 LGPLv2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 12230
+Filename: libnl-tiny_0.1-3_ib42x0.ipk
+Size: 12811
+MD5Sum: b9599b120d3c2d8968374e218ad16a05
+Description:  This package contains a stripped down version of libnl
+
+Package: libopenssl
+Version: 1.0.1e-1
+Depends: libc, zlib
+Source: package/libs/openssl
+SourceFile: openssl-1.0.1e.tar.gz
+SourceURL: http://www.openssl.org/source/ ftp://ftp.funet.fi/pub/crypt/mirrors/ftp.openssl.org/source ftp://ftp.sunet.se/pub/security/tools/net/openssl/source/
+License: SSLEAY OPENSSL
+LicenseFiles: LICENSE
+Section: libs
+Architecture: ib42x0
+Installed-Size: 571299
+Filename: libopenssl_1.0.1e-1_ib42x0.ipk
+Size: 565426
+MD5Sum: 0d7c52ff45542914f85067aa7def4d42
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+ Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+ as a full-strength general purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
+
+Package: libpthread
+Version: 0.9.33.2-1
+Depends: libgcc
+Source: package/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 27564
+Filename: libpthread_0.9.33.2-1_ib42x0.ipk
+Size: 28167
+MD5Sum: ca824352874813cc39c95caba6e3ae35
+Description:  POSIX thread library
+
+Package: librt
+Version: 0.9.33.2-1
+Depends: libpthread
+Source: package/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 4690
+Filename: librt_0.9.33.2-1_ib42x0.ipk
+Size: 5272
+MD5Sum: 6515e2f28efc449f538cde3d6450d8a8
+Description:  POSIX.1b RealTime extension library
+
+Package: libstdcpp
+Version: 4.6-linaro-1
+Source: package/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 207509
+Filename: libstdcpp_4.6-linaro-1_ib42x0.ipk
+Size: 206443
+MD5Sum: 6a88d9d6d93b864e57d956747656ff0c
+Description:  GNU Standard C++ Library v3
+
+Package: libtiff
+Version: 4.0.3-1
+Depends: libc, zlib, libjpeg
+Source: feeds/packages/libs/tiff
+SourceFile: tiff-4.0.3.tar.gz
+SourceURL: http://download.osgeo.org/libtiff
+Section: libs
+Architecture: ib42x0
+Installed-Size: 125451
+Filename: libtiff_4.0.3-1_ib42x0.ipk
+Size: 125208
+MD5Sum: 9aecb5b326869323bb3904acce20c2f8
+Description:  TIFF library
+
+Package: libubox
+Version: 2013-04-15-dcf93f332270bdaddb5d24fdba6e3eb5b1f7d80a
+Depends: libc
+Source: package/libs/libubox
+SourceFile: libubox-2013-04-15-dcf93f332270bdaddb5d24fdba6e3eb5b1f7d80a.tar.gz
+SourceURL: git://nbd.name/luci2/libubox.git
+License: ISC BSD-3c
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 10534
+Filename: libubox_2013-04-15-dcf93f332270bdaddb5d24fdba6e3eb5b1f7d80a_ib42x0.ipk
+Size: 11167
+MD5Sum: e4a6dad01ce741a7680dcf2d519073d7
+Description:  Basic utility library
+
+Package: libubus
+Version: 2013-04-04-90037b772c525ad734acb4641c9dacb7abf48ffe
+Depends: libc, libubox
+Source: package/ubus
+SourceFile: ubus-2013-04-04-90037b772c525ad734acb4641c9dacb7abf48ffe.tar.gz
+SourceURL: git://nbd.name/luci2/ubus.git
+License: LGPLv2.1
+Section: luci2
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 11205
+Filename: libubus_2013-04-04-90037b772c525ad734acb4641c9dacb7abf48ffe_ib42x0.ipk
+Size: 11818
+MD5Sum: 1769d1d674a7b7d3d10769f6e3ddc27a
+Description:  OpenWrt RPC client library
+
+Package: libuci
+Version: 2013-04-22.1-1
+Depends: libc
+Source: package/uci
+SourceFile: uci-2013-04-22.1.tar.gz
+SourceURL: git://nbd.name/uci.git
+License: LGPLv2.1 GPLv2
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 13385
+Filename: libuci_2013-04-22.1-1_ib42x0.ipk
+Size: 14032
+MD5Sum: 488e60606f93ea57775d5cf63ed3113b
+Description:  C library for the Unified Configuration Interface (UCI)
+
+Package: libusb-1.0
+Version: 1.0.9-1
+Depends: libc, libpthread, librt
+Source: package/libs/libusb
+SourceFile: libusb-1.0.9.tar.bz2
+SourceURL: @SF/libusb
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 22181
+Filename: libusb-1.0_1.0.9-1_ib42x0.ipk
+Size: 22764
+MD5Sum: 0a0917b5a0da6ca18d522023d09925a4
+Description:  libusb is a C library that gives applications easy access to USB devices on
+ many different operating systems.
+
+Package: libusb-compat
+Version: 0.1.4-1
+Depends: libc, libusb-1.0
+Source: package/libs/libusb-compat
+SourceFile: libusb-compat-0.1.4.tar.bz2
+SourceURL: @SF/libusb
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 5898
+Filename: libusb-compat_0.1.4-1_ib42x0.ipk
+Size: 6544
+MD5Sum: ee311cb8c2b834b082aa0dac469490ab
+Description:  libusb is a C library that gives applications easy access to USB devices on
+ many different operating systems.
+
+Package: libuuid
+Version: 2.21.2-1
+Depends: libc
+Source: package/util-linux
+SourceFile: util-linux-2.21.2.tar.xz
+SourceURL: @KERNEL/linux/utils/util-linux/v2.21
+License: GPLv2 LGPLv2.1 BSD-3c
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+Architecture: ib42x0
+Installed-Size: 5545
+Filename: libuuid_2.21.2-1_ib42x0.ipk
+Size: 6344
+MD5Sum: c0ffe83940d9b9bd06765d64c4f94d2b
+Description:  The UUID library is used to generate unique identifiers for objects
+ that may be accessible beyond the local system. This library
+ generates UUIDs compatible with those created by the Open Software
+ Foundation (OSF) Distributed Computing Environment (DCE) utility.
+
+Package: libv4l
+Version: 0.8.6-2
+Depends: libc, libpthread, librt
+Source: feeds/packages/libs/libv4l
+SourceFile: v4l-utils-0.8.6.tar.bz2
+SourceURL: http://www.linuxtv.org/downloads/v4l-utils
+Section: libs
+Architecture: ib42x0
+Installed-Size: 67846
+Filename: libv4l_0.8.6-2_ib42x0.ipk
+Size: 68750
+MD5Sum: 9ed2084006ab358b67e1324967bf3858
+Description:  libv4l is a collection of libraries which adds a thin abstraction layer on
+ top of video4linux2 devices. The purpose of this (thin) layer is to make it
+ easy for application writers to support a wide variety of devices without
+ having to write separate code for different devices in the same class. libv4l
+ consists of 3 different libraries: libv4lconvert, libv4l1 and libv4l2.
+ 
+ libv4l1 offers the (deprecated) v4l1 API on top of v4l2 devices, independent
+ of the drivers for those devices supporting v4l1 compatibility (which many
+ v4l2 drivers do not).
+ 
+ libv4l2 offers the v4l2 API on top of v4l2 devices, while adding for the
+ application transparent libv4lconvert conversion where necessary.
+
+Package: mdadm
+Version: 3.2.6-1
+Depends: libc
+Source: feeds/packages/utils/mdadm
+SourceFile: mdadm-3.2.6.tar.xz
+SourceURL: @KERNEL/linux/utils/raid/mdadm
+Section: utils
+Architecture: ib42x0
+Installed-Size: 191403
+Filename: mdadm_3.2.6-1_ib42x0.ipk
+Size: 191880
+MD5Sum: dd26a0579e6ab0dc6a79ba741495638d
+Description:  A tool for managing Linux Software RAID arrays.
+
+Package: mtd
+Version: 20
+Depends: libc
+Source: package/mtd
+License: GPLv2 GPLv2+
+Section: utils
+Architecture: ib42x0
+Installed-Size: 10384
+Filename: mtd_20_ib42x0.ipk
+Size: 10936
+MD5Sum: 1c330998bad8369fb63137feb302ffba
+Description:  This package contains an utility useful to upgrade from other firmware or 
+ older OpenWrt releases.
+
+Package: netifd
+Version: 2013-04-27-e33ab96c8b41867d655e2ee5e4f58a7d3101d9d2
+Depends: libc, libuci, libnl-tiny, libubus, ubus, ubusd, jshn
+Source: package/network/config/netifd
+SourceFile: netifd-2013-04-27-e33ab96c8b41867d655e2ee5e4f58a7d3101d9d2.tar.gz
+SourceURL: git://nbd.name/luci2/netifd.git
+License: GPLv2
+Section: base
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 42457
+Filename: netifd_2013-04-27-e33ab96c8b41867d655e2ee5e4f58a7d3101d9d2_ib42x0.ipk
+Size: 43113
+MD5Sum: ca847b9adada3236d55aaba382949e23
+Description:  OpenWrt Network Interface Configuration Daemon
+
+Package: opkg
+Version: 618-3
+Depends: libc
+Source: package/opkg
+SourceFile: opkg-618.tar.gz
+SourceURL: http://opkg.googlecode.com/svn/trunk/
+License: GPLv2
+LicenseFiles: COPYING
+Section: base
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: ib42x0
+Installed-Size: 55927
+Filename: opkg_618-3_ib42x0.ipk
+Size: 56713
+MD5Sum: 0bc3a35f869d194c8b60f46dc685aa79
+Description:  Lightweight package management system
+ opkg is the opkg Package Management System, for handling
+ installation and removal of packages on a system. It can
+ recursively follow dependencies and download all packages
+ necessary to install a particular package.
+ 
+ opkg knows how to install both .ipk and .deb packages.
+
+Package: parted
+Version: 3.1-1
+Depends: libc
+Source: feeds/addpack/parted
+SourceFile: parted-3.1.tar.xz
+SourceURL: @GNU/parted
+Section: utils
+Architecture: ib42x0
+Installed-Size: 200763
+Filename: parted_3.1-1_ib42x0.ipk
+Size: 200601
+MD5Sum: cbf8bedb2128d61e9c345d2a30db9e7c
+Description:  parted Partition editor
+ http://www.gnu.org/software/parted/index.shtml
+
+Package: procd
+Version: 2013-04-25-c28ba8c1947e1b31874bf5888742d1607ed7ae61
+Depends: libc, ubusd, ubus, libjson-script, ubox
+Source: package/procd
+SourceFile: procd-2013-04-25-c28ba8c1947e1b31874bf5888742d1607ed7ae61.tar.gz
+SourceURL: git://nbd.name/luci2/procd.git
+License: GPLv2
+Section: base
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 26879
+Filename: procd_2013-04-25-c28ba8c1947e1b31874bf5888742d1607ed7ae61_ib42x0.ipk
+Size: 27399
+MD5Sum: b010a05be4fd60ea429a1aa808befe7f
+Description:  OpenWrt system process manager
+
+Package: resolveip
+Version: 2
+Depends: libc
+Source: package/network/utils/resolveip
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 1930
+Filename: resolveip_2_ib42x0.ipk
+Size: 2638
+MD5Sum: dba145c472d0c859fa73be6cab5d1bf6
+Description:  This package contains the small resolveip utility which
+ can be used by scripts to turn host names into numeric
+ IP addresses. It supports IPv4 and IPv6 resolving and
+ has a configurable timeout to guarantee a certain maximum
+ runtime in case of slow or defunct DNS servers.
+
+Package: strace
+Version: 4.7-1
+Depends: libc
+Source: feeds/packages/utils/strace
+SourceFile: strace-4.7.tar.xz
+SourceURL: @SF/strace
+License: BSD-3c
+LicenseFiles: COPYRIGHT
+Section: utils
+Architecture: ib42x0
+Installed-Size: 92646
+Filename: strace_4.7-1_ib42x0.ipk
+Size: 91964
+MD5Sum: d23fce571b664c9e0e712a4f48399dda
+Description:  A useful diagnostic, instructional, and debugging tool. Allows you to track what
+ system calls a program makes while it is running.
+
+Package: swap-utils
+Version: 2.21.2-1
+Depends: libc, libblkid
+Source: package/util-linux
+SourceFile: util-linux-2.21.2.tar.xz
+SourceURL: @KERNEL/linux/utils/util-linux/v2.21
+License: GPLv2 LGPLv2.1 BSD-3c
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: ib42x0
+Installed-Size: 19432
+Filename: swap-utils_2.21.2-1_ib42x0.ipk
+Size: 20066
+MD5Sum: ac1eede7683d94f23e769bf7b6a6d437
+Description:  contains: mkswap, swaplabel, swapon, swapoff
+
+Package: testusb
+Version: 1
+Depends: libc, libpthread
+Source: feeds/packages/utils/testusb
+Section: utils
+Architecture: ib42x0
+Installed-Size: 3490
+Filename: testusb_1_ib42x0.ipk
+Size: 4064
+MD5Sum: 5d49e32be08f6a8ef78f91f9d36cb098
+Description:  This tool can be used to perform various tests with use of the usbtest driver. 
+
+Package: ubox
+Version: 2013-04-24-fa4c1e81dae3ffb7711be38c64eacf8ac3856e42
+Depends: libc, ubusd, ubus
+Source: package/ubox
+SourceFile: ubox-2013-04-24-fa4c1e81dae3ffb7711be38c64eacf8ac3856e42.tar.gz
+SourceURL: git://nbd.name/luci2/ubox.git
+License: GPLv2
+Section: base
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 11326
+Filename: ubox_2013-04-24-fa4c1e81dae3ffb7711be38c64eacf8ac3856e42_ib42x0.ipk
+Size: 11963
+MD5Sum: 55475745bceced838f9694631cc76dab
+Description:  OpenWrt system helper toolbox
+
+Package: ubus
+Version: 2013-04-04-90037b772c525ad734acb4641c9dacb7abf48ffe
+Depends: libc, libubus, libblobmsg-json, ubusd
+Source: package/ubus
+SourceFile: ubus-2013-04-04-90037b772c525ad734acb4641c9dacb7abf48ffe.tar.gz
+SourceURL: git://nbd.name/luci2/ubus.git
+License: LGPLv2.1
+Section: luci2
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 3603
+Filename: ubus_2013-04-04-90037b772c525ad734acb4641c9dacb7abf48ffe_ib42x0.ipk
+Size: 4278
+MD5Sum: 8e7ebd43b140de4f0830775220a999c2
+Description:  OpenWrt RPC client utility
+
+Package: ubusd
+Version: 2013-04-04-90037b772c525ad734acb4641c9dacb7abf48ffe
+Depends: libc, libubox
+Source: package/ubus
+SourceFile: ubus-2013-04-04-90037b772c525ad734acb4641c9dacb7abf48ffe.tar.gz
+SourceURL: git://nbd.name/luci2/ubus.git
+License: LGPLv2.1
+Section: luci2
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 7344
+Filename: ubusd_2013-04-04-90037b772c525ad734acb4641c9dacb7abf48ffe_ib42x0.ipk
+Size: 8007
+MD5Sum: 1617c782df7070fff24ba181d8942ac5
+Description:  OpenWrt RPC daemon
+
+Package: uci
+Version: 2013-04-22.1-1
+Depends: libc, libuci
+Source: package/uci
+SourceFile: uci-2013-04-22.1.tar.gz
+SourceURL: git://nbd.name/uci.git
+License: LGPLv2.1 GPLv2
+Section: base
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 6723
+Filename: uci_2013-04-22.1-1_ib42x0.ipk
+Size: 7401
+MD5Sum: 303cde31927bd02b0f79a6192f160456
+Description:  Utility for the Unified Configuration Interface (UCI)
+
+Package: udev
+Version: 173-1
+Depends: libc, librt
+Source: package/udev
+SourceFile: udev-173.tar.bz2
+SourceURL: @KERNEL/linux/utils/kernel/hotplug/
+Section: base
+Maintainer: Geoff Levand <geoff@infradead.org>
+Architecture: ib42x0
+Installed-Size: 199380
+Filename: udev_173-1_ib42x0.ipk
+Size: 199840
+MD5Sum: d1c5deb74d84ed28727eb9f919fd4a95
+Description:  udev allows Linux users to have a dynamic /dev directory and it
+ provides the ability to have persistent device names.
+
+Package: usb-modeswitch-data
+Version: 20121109
+Depends: libc, usb-modeswitch
+Source: package/system/utils/usb-modeswitch
+SourceFile: usb-modeswitch-1.2.5.tar.bz2
+SourceURL: http://www.draisberghof.de/usb_modeswitch
+Section: utils
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 13185
+Filename: usb-modeswitch-data_20121109_ib42x0.ipk
+Size: 13418
+MD5Sum: f7243beb6d38c0f6c9ad0cea4204935f
+Description:  Configuration database for usb-modeswitch.
+ Contains definitions for many USB devices required to
+ autoswitch "flip flop" gear.
+
+Package: usb-modeswitch
+Version: 1.2.5-1
+Depends: libc, libusb-compat
+Source: package/system/utils/usb-modeswitch
+SourceFile: usb-modeswitch-1.2.5.tar.bz2
+SourceURL: http://www.draisberghof.de/usb_modeswitch
+Section: utils
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 19188
+Filename: usb-modeswitch_1.2.5-1_ib42x0.ipk
+Size: 19888
+MD5Sum: 9e4e5ba7af93d8f72ff2aa82f91d6ac5
+Description:  A mode switching tool for controlling
+ "flip flop" (multiple device) USB gear.
+
+Package: usbutils
+Version: 006-1
+Depends: libc, libusb-1.0, zlib, librt, libpthread
+Source: package/system/utils/usbutils
+SourceFile: usbutils-006.tar.bz2
+SourceURL: @KERNEL/linux/utils/usb/usbutils
+Section: utils
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 198172
+Filename: usbutils_006-1_ib42x0.ipk
+Size: 198864
+MD5Sum: db0175b38f77ce3c1ba3a20f4ba9f470
+Description:  USB devices listing utilities
+
+Package: uuidgen
+Version: 2.21.2-1
+Depends: libc, libuuid
+Source: package/util-linux
+SourceFile: util-linux-2.21.2.tar.xz
+SourceURL: @KERNEL/linux/utils/util-linux/v2.21
+License: GPLv2 LGPLv2.1 BSD-3c
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: ib42x0
+Installed-Size: 2242
+Filename: uuidgen_2.21.2-1_ib42x0.ipk
+Size: 3036
+MD5Sum: 266001dc1b54b22903adf92ba6ee1b54
+Description:  The uuidgen program creates (and prints) a new universally unique identifier
+ (UUID) using the libuuid library. The new UUID can reasonably be considered
+ unique among all UUIDs created on the local system, and among UUIDs created on
+ other systems in the past and in the future.
+
+Package: wireless-tools
+Version: 29-5
+Depends: libc
+Source: package/network/utils/wireless-tools
+SourceFile: wireless_tools.29.tar.gz
+SourceURL: http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 23053
+Filename: wireless-tools_29-5_ib42x0.ipk
+Size: 23757
+MD5Sum: 6cade951d28f93caf072acd4eaf32980
+Description:  This package contains a collection of tools for configuring wireless
+ adapters implementing the "Linux Wireless Extensions".
+
+Package: xfs-fsck
+Version: 3.1.10-1
+Depends: libc, libuuid, libpthread, librt
+Source: package/system/utils/xfsprogs
+SourceFile: xfsprogs-3.1.10.tar.gz
+SourceURL: git://oss.sgi.com/xfs/cmds/xfsprogs
+Section: utils
+Architecture: ib42x0
+Installed-Size: 423913
+Filename: xfs-fsck_3.1.10-1_ib42x0.ipk
+Size: 424210
+MD5Sum: 7a8ac80576cd93e6549f00c87f93f490
+Description:  Utilities for checking and repairing XFS filesystems
+
+Package: xfs-growfs
+Version: 3.1.10-1
+Depends: libc, libuuid, libpthread, librt
+Source: package/system/utils/xfsprogs
+SourceFile: xfsprogs-3.1.10.tar.gz
+SourceURL: git://oss.sgi.com/xfs/cmds/xfsprogs
+Section: utils
+Architecture: ib42x0
+Installed-Size: 115632
+Filename: xfs-growfs_3.1.10-1_ib42x0.ipk
+Size: 116271
+MD5Sum: b40cca1419609989394ae18ea708c637
+Description:  Utility for increasing the size of XFS filesystems
+
+Package: xfs-mkfs
+Version: 3.1.10-1
+Depends: libc, libuuid, libpthread, librt
+Source: package/system/utils/xfsprogs
+SourceFile: xfsprogs-3.1.10.tar.gz
+SourceURL: git://oss.sgi.com/xfs/cmds/xfsprogs
+Section: utils
+Architecture: ib42x0
+Installed-Size: 189701
+Filename: xfs-mkfs_3.1.10-1_ib42x0.ipk
+Size: 190185
+MD5Sum: 0a97384941d251340b83fdc8dd9466d8
+Description:  Utility for creating XFS filesystems
+
+Package: xfs-tools
+Version: 3.1.10-1
+Depends: libc, libuuid, libpthread, librt
+Source: package/system/utils/xfsprogs
+SourceFile: xfsprogs-3.1.10.tar.gz
+SourceURL: git://oss.sgi.com/xfs/cmds/xfsprogs
+Section: utils
+Architecture: ib42x0
+Installed-Size: 393446
+Filename: xfs-tools_3.1.10-1_ib42x0.ipk
+Size: 393861
+MD5Sum: a0339f36ee92c82103384737246fc5e1
+Description:  Multicall for xfs_repair xfs_db and xfs_mkfs
+
+Package: zlib
+Version: 1.2.7-1
+Depends: libc
+Source: package/libs/zlib
+SourceFile: zlib-1.2.7.tar.bz2
+SourceURL: http://www.zlib.net @SF/libpng
+License: ZLIB
+LicenseFiles: README
+Section: libs
+Architecture: ib42x0
+Installed-Size: 39349
+Filename: zlib_1.2.7-1_ib42x0.ipk
+Size: 39995
+MD5Sum: 8aa9dbe63d29d1425d4ef0da01a950d8
+Description:  Library implementing the deflate compression method
+
