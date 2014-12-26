@@ -1759,10 +1759,10 @@ SourceURL: http://ipset.netfilter.org
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: ib42x0
-Installed-Size: 55382
+Installed-Size: 55379
 Filename: ipset_6.16.1-1_ib42x0.ipk
-Size: 55612
-MD5Sum: c11a4f4df81c5a6dd6a846201d849121
+Size: 55572
+MD5Sum: 5394399390e6d393b7086dbd114ca194
 Description:  IPset administration utility
 
 Package: jshn
@@ -1789,10 +1789,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 4508
+Installed-Size: 4511
 Filename: kmod-crypto-authenc_3.8.10-1_ib42x0.ipk
-Size: 5176
-MD5Sum: 969f5b3ac7c453cc59828b14290e7a14
+Size: 5177
+MD5Sum: 773915c2dd78d73e1a80230ea4a39053
 Description:  Combined mode wrapper for IPsec
 
 Package: kmod-crypto-cbc
@@ -1805,8 +1805,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 105
 Filename: kmod-crypto-cbc_3.8.10-1_ib42x0.ipk
-Size: 668
-MD5Sum: 0637378f70ba021be55dffaf83d42bc3
+Size: 665
+MD5Sum: d3991b73edd1ca75fc0e1ff6ef48e2c8
 Description:  Cipher Block Chaining CryptoAPI module
 
 Package: kmod-crypto-core
@@ -1819,8 +1819,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 105
 Filename: kmod-crypto-core_3.8.10-1_ib42x0.ipk
-Size: 642
-MD5Sum: 7a7b12b68c9633405ec8c060d9ede5b0
+Size: 641
+MD5Sum: dc457a4929d7fa79431bfadeb074a7fc
 Description:  Core CryptoAPI modules
 
 Package: kmod-crypto-deflate
@@ -1833,8 +1833,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 105
 Filename: kmod-crypto-deflate_3.8.10-1_ib42x0.ipk
-Size: 667
-MD5Sum: 620176a7a5c5811fcd8392bf5581c1ac
+Size: 665
+MD5Sum: d5e1c359c81e845e7cf1511616436c12
 Description:  Deflate compression CryptoAPI module
 
 Package: kmod-crypto-des
@@ -1845,10 +1845,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 105
+Installed-Size: 104
 Filename: kmod-crypto-des_3.8.10-1_ib42x0.ipk
-Size: 655
-MD5Sum: 4ec9c90bfc4638fa1f14455670ffa64f
+Size: 651
+MD5Sum: 0a41a5347b82590db7ee7f039d98eb88
 Description:  DES/3DES cipher CryptoAPI module
 
 Package: kmod-crypto-hash
@@ -1861,8 +1861,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 105
 Filename: kmod-crypto-hash_3.8.10-1_ib42x0.ipk
-Size: 647
-MD5Sum: e3cf8aeecad1ec83bd04b604d000400b
+Size: 646
+MD5Sum: c5bb8b863b4cdad3c9f1939c7c8d85dc
 Description:  CryptoAPI hash support
 
 Package: kmod-crypto-hmac
@@ -1876,7 +1876,7 @@ Architecture: ib42x0
 Installed-Size: 105
 Filename: kmod-crypto-hmac_3.8.10-1_ib42x0.ipk
 Size: 660
-MD5Sum: 8c5107c0177e774764935b27313b0f3b
+MD5Sum: 178482564e700623691f72fd4952e989
 Description:  HMAC digest CryptoAPI module
 
 Package: kmod-crypto-iv
@@ -1887,10 +1887,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 104
+Installed-Size: 105
 Filename: kmod-crypto-iv_3.8.10-1_ib42x0.ipk
-Size: 666
-MD5Sum: e657572c1be0d911927ae7458010e157
+Size: 670
+MD5Sum: 2a550cb52223fe1f5ee9ea78ab40aaa2
 Description:  CryptoAPI initialization vectors
 
 Package: kmod-crypto-manager
@@ -1903,8 +1903,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 105
 Filename: kmod-crypto-manager_3.8.10-1_ib42x0.ipk
-Size: 655
-MD5Sum: f730dd520b415da6f164b98fc36194fa
+Size: 654
+MD5Sum: 23bff6bb25f64add05acdc24ee30e8af
 Description:  CryptoAPI algorithm manager
 
 Package: kmod-crypto-md5
@@ -1917,8 +1917,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 105
 Filename: kmod-crypto-md5_3.8.10-1_ib42x0.ipk
-Size: 658
-MD5Sum: cd264164a0168eda4593f09e57e00644
+Size: 656
+MD5Sum: 504c61e38578778e84309a6807929a76
 Description:  MD5 digest CryptoAPI module
 
 Package: kmod-crypto-rng
@@ -1929,10 +1929,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 105
+Installed-Size: 104
 Filename: kmod-crypto-rng_3.8.10-1_ib42x0.ipk
-Size: 655
-MD5Sum: 7fa82e35660386137f944b69475f7dea
+Size: 656
+MD5Sum: 89916bb7cde43995f6c172d846e1efd5
 Description:  CryptoAPI random number generation
 
 Package: kmod-crypto-sha1
@@ -1945,8 +1945,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 105
 Filename: kmod-crypto-sha1_3.8.10-1_ib42x0.ipk
-Size: 658
-MD5Sum: 30e050d73bc1b05e89747344517a52f1
+Size: 654
+MD5Sum: 2c8aa17a712bcabbaf8bd0f29b769d84
 Description:  SHA1 digest CryptoAPI module
 
 Package: kmod-crypto-user
@@ -1957,10 +1957,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 9665
+Installed-Size: 9666
 Filename: kmod-crypto-user_3.8.10-1_ib42x0.ipk
-Size: 10348
-MD5Sum: 513a68b5bfa04d850253196cd94baa62
+Size: 10355
+MD5Sum: 8cad3cfad86dc7bcd2449e6f5e19a93d
 Description:  CryptoAPI userspace interface
 
 Package: kmod-crypto-wq
@@ -1971,10 +1971,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 105
+Installed-Size: 104
 Filename: kmod-crypto-wq_3.8.10-1_ib42x0.ipk
-Size: 652
-MD5Sum: 43c08f7bf3c6b12d5eb28ab57eb79efd
+Size: 653
+MD5Sum: 302d41b6dc1032212791a9418bce882b
 Description:  CryptoAPI work queue handling
 
 Package: kmod-dm
@@ -1985,10 +1985,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 61855
+Installed-Size: 61852
 Filename: kmod-dm_3.8.10-1_ib42x0.ipk
-Size: 62613
-MD5Sum: dbf94ddf12864048cd894c814ee3ee24
+Size: 62599
+MD5Sum: 0ad7bb6573996cda6958c79f4a1c6c2e
 Description:  Kernel module necessary for LVM2 support
 
 Package: kmod-ipsec4
@@ -1999,10 +1999,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 13575
+Installed-Size: 13576
 Filename: kmod-ipsec4_3.8.10-1_ib42x0.ipk
-Size: 14296
-MD5Sum: c2f41da739b85005b4dec2675bd72d47
+Size: 14294
+MD5Sum: eb13381ba452375e82aa6d5c782318a4
 Description:  Kernel modules for IPsec support in IPv4.
  Includes:
  - ah4
@@ -2021,10 +2021,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 14119
+Installed-Size: 14116
 Filename: kmod-ipsec6_3.8.10-1_ib42x0.ipk
-Size: 14851
-MD5Sum: 6a203d74fa892b2395211b9d75f4b0a9
+Size: 14842
+MD5Sum: 41779e40ee05a30d1fe73d1c206149bb
 Description:  Kernel modules for IPsec support in IPv6.
  Includes:
  - ah6
@@ -2043,10 +2043,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 32984
+Installed-Size: 32987
 Filename: kmod-ipsec_3.8.10-1_ib42x0.ipk
-Size: 33802
-MD5Sum: e4aad78990204d527b355519cb57c1d8
+Size: 33798
+MD5Sum: 5e1834572e286d1e3d0b9e173b4b7304
 Description:  Kernel modules for IPsec support in both IPv4 and IPv6.
  Includes:
  - af_key
@@ -2061,10 +2061,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 27498
+Installed-Size: 27492
 Filename: kmod-ipt-core_3.8.10-1_ib42x0.ipk
-Size: 28205
-MD5Sum: e58979d4d1c93c7a2a5f958acb2f08d3
+Size: 28196
+MD5Sum: 0e8af92e0b979b774d4138781e1d19f9
 Description:  Netfilter core kernel modules
  Includes:
  - comment
@@ -2084,10 +2084,10 @@ SourceURL: http://ipset.netfilter.org
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: ib42x0
-Installed-Size: 86260
+Installed-Size: 86256
 Filename: kmod-ipt-ipset_3.8.10+6.16.1-1_ib42x0.ipk
-Size: 86706
-MD5Sum: 43059d6268e60c987ab3487b9a3f7090
+Size: 86698
+MD5Sum: 9c6731da12673f810ac9c8b28aae9b37
 Description:  IPset netfilter modules
 
 Package: kmod-iptunnel4
@@ -2098,10 +2098,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 2044
+Installed-Size: 2049
 Filename: kmod-iptunnel4_3.8.10-1_ib42x0.ipk
-Size: 2681
-MD5Sum: a014adfb86eab37f7b1c629eb1592074
+Size: 2693
+MD5Sum: 65d18f13ad82c281e392290b44086acf
 Description:  Kernel modules for IPv4 tunneling
 
 Package: kmod-iptunnel6
@@ -2112,10 +2112,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 2077
+Installed-Size: 2084
 Filename: kmod-iptunnel6_3.8.10-1_ib42x0.ipk
-Size: 2722
-MD5Sum: 634774fc84ed7f056a4cc685a07fcf1a
+Size: 2736
+MD5Sum: 9c22b0a23daa9ea5298bbb10a2897a34
 Description:  Kernel modules for IPv6 tunneling
 
 Package: kmod-ipv6
@@ -2126,10 +2126,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 138363
+Installed-Size: 138357
 Filename: kmod-ipv6_3.8.10-1_ib42x0.ipk
-Size: 138846
-MD5Sum: 6af2521b5fd14729d1046be3dc333444
+Size: 138863
+MD5Sum: f89483e1848c523c11b74697209d18e3
 Description:  Kernel modules for IPv6 support
 
 Package: kmod-lib-zlib
@@ -2140,10 +2140,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 105
+Installed-Size: 104
 Filename: kmod-lib-zlib_3.8.10-1_ib42x0.ipk
-Size: 631
-MD5Sum: 0ec4854b46da5221f9c2d38946faf9ef
+Size: 634
+MD5Sum: c6dee33e2bb7047e6e5307cdc7f682eb
 Description:  Zlib support
 
 Package: kmod-nfnetlink
@@ -2154,10 +2154,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 2940
+Installed-Size: 2939
 Filename: kmod-nfnetlink_3.8.10-1_ib42x0.ipk
-Size: 3623
-MD5Sum: 711f89ea2f36732d35e528b1ac970342
+Size: 3617
+MD5Sum: b3f4b1d83413ab023706cfb971f771ec
 Description:  Kernel modules support for a netlink-based userspace interface
 
 Package: ldd
@@ -2299,6 +2299,23 @@ Size: 124914
 MD5Sum: 4c566955002d813c982a76d269bffaee
 Description:  A client-side URL transfer library
 
+Package: libdb47
+Version: 4.7.25.NC-6
+Depends: libc, libxml2
+Source: feeds/packages/libs/db47
+SourceFile: db-4.7.25.NC.tar.gz
+SourceURL: http://download.oracle.com/berkeley-db/
+License: BSD-2c
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: ib42x0
+Installed-Size: 278840
+Filename: libdb47_4.7.25.NC-6_ib42x0.ipk
+Size: 277682
+MD5Sum: 9d91e292e9fbc8f193ad6d0eefa1f0d6
+Description:  Berkeley DB library (4.7).
+
 Package: libdbus
 Version: 1.4.14-2
 Depends: libc, librt
@@ -2430,6 +2447,22 @@ Description:  This is a general purpose cryptographic library based on the code 
  random numbers and a lot of supporting functions. Some algorithms have
  been disabled to reduce size (Blowfish, Twofish, Serpent,
  RC2, SEED, Camellia, CRC, MD4, TIGER-192, Whirlpool, ElGamal, ECC).
+
+Package: libgdbm
+Version: 1.9.1-2
+Depends: libc
+Source: feeds/packages/libs/gdbm
+SourceFile: gdbm-1.9.1.tar.gz
+SourceURL: @GNU/gdbm
+License: GPLv3
+LicenseFiles: COPYING
+Section: libs
+Architecture: ib42x0
+Installed-Size: 11085
+Filename: libgdbm_1.9.1-2_ib42x0.ipk
+Size: 11644
+MD5Sum: ce9a222ebc55835a54830e949d349a44
+Description:  GNU database manager
 
 Package: libgmp
 Version: 5.1.0-1
@@ -2985,6 +3018,22 @@ MD5Sum: d4ec83652cfa23f9ae5e53ac6cf80b2e
 Description:  A fast, lightweight Source Control Management system designed for efficient
  handling of very large distributed projects.
 
+Package: microperl
+Version: 5.10.0-7
+Depends: libc
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 404244
+Filename: microperl_5.10.0-7_ib42x0.ipk
+Size: 404875
+MD5Sum: 19e21b8eab9b101a3c3cd32c58a6e191
+Description:  A perl package without operating-specific functions such as readdir.
+
 Package: mtd
 Version: 20
 Depends: libc
@@ -3083,6 +3132,2354 @@ Size: 200601
 MD5Sum: cbf8bedb2128d61e9c345d2a30db9e7c
 Description:  parted Partition editor
  http://www.gnu.org/software/parted/index.shtml
+
+Package: perl-compress-bzip2
+Version: 2.09-3
+Depends: libc, perl, libbz2
+Source: feeds/packages/lang/perl-compress-bzip2
+SourceFile: Compress-Bzip2-2.09.tar.gz
+SourceURL: http://search.cpan.org/CPAN/authors/id/A/AR/ARJAY
+Section: lang
+Architecture: ib42x0
+Installed-Size: 26079
+Filename: perl-compress-bzip2_2.09-3_ib42x0.ipk
+Size: 26683
+MD5Sum: a7df9b4b6aaca57e2d533dee65f931ff
+Description:  Perl interface to bzip2 compression library
+
+Package: perl-dbi
+Version: 1.604-1
+Depends: libc, perl, perlbase-essential
+Source: feeds/packages/lang/perl-dbi
+SourceFile: DBI-1.604.tar.gz
+SourceURL: http://search.cpan.org/CPAN/authors/id/T/TI/TIMB/
+Section: lang
+Architecture: ib42x0
+Installed-Size: 164481
+Filename: perl-dbi_1.604-1_ib42x0.ipk
+Size: 164921
+MD5Sum: 7fd3dd8f40ea77e6c8e4883bc4310d77
+Description:  Database independent interface for Perl
+
+Package: perl-html-parser
+Version: 3.56-1
+Depends: libc, perl, perl-html-tagset, perl-uri
+Source: feeds/packages/lang/perl-html-parser
+SourceFile: HTML-Parser-3.56.tar.gz
+SourceURL: http://search.cpan.org/CPAN/authors/id/G/GA/GAAS
+Section: lang
+Architecture: ib42x0
+Installed-Size: 27883
+Filename: perl-html-parser_3.56-1_ib42x0.ipk
+Size: 28508
+MD5Sum: 2d4a2f7337e5410b0fb4d061bde93478
+Description:  A collection of modules that parse HTML text documents
+
+Package: perl-html-tagset
+Version: 3.20-1
+Depends: libc, perl
+Source: feeds/packages/lang/perl-html-tagset
+SourceFile: HTML-Tagset-3.20.tar.gz
+SourceURL: http://search.cpan.org/CPAN/authors/id/P/PE/PETDANCE
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1854
+Filename: perl-html-tagset_3.20-1_ib42x0.ipk
+Size: 2479
+MD5Sum: 236e3a1b5cb5c813350981a9af9b4b85
+Description:  Data tables pertaining to HTML
+
+Package: perl-html-tree
+Version: 3.23-2
+Depends: libc, perl, perl-html-parser, perl-html-tagset
+Source: feeds/packages/lang/perl-html-tree
+SourceFile: HTML-Tree-3.23.tar.gz
+SourceURL: http://search.cpan.org/CPAN/authors/id/P/PE/PETEK
+Section: lang
+Architecture: ib42x0
+Installed-Size: 31635
+Filename: perl-html-tree_3.23-2_ib42x0.ipk
+Size: 32235
+MD5Sum: ce937db9789a301ee616291b1342dd9b
+Description:  represent and create HTML syntax trees
+
+Package: perl-lockfile-simple
+Version: 0.206-1
+Depends: libc, perl
+Source: feeds/packages/lang/perl-lockfile-simple
+SourceFile: LockFile-Simple-0.206.tar.gz
+SourceURL: http://search.cpan.org/CPAN/authors/id/J/JV/JV
+Section: lang
+Architecture: ib42x0
+Installed-Size: 4629
+Filename: perl-lockfile-simple_0.206-1_ib42x0.ipk
+Size: 5205
+MD5Sum: 5c6a79c4bc6b7c83775a3266c041e025
+Description:  Simple advisory file locking
+
+Package: perl-net-telnet
+Version: 3.03-1
+Depends: libc, perl
+Source: feeds/packages/lang/perl-net-telnet
+SourceFile: Net-Telnet-3.03.tar.gz
+SourceURL: http://search.cpan.org/CPAN/authors/id/J/JR/JROGERS
+Section: lang
+Architecture: ib42x0
+Installed-Size: 16638
+Filename: perl-net-telnet_3.03-1_ib42x0.ipk
+Size: 17206
+MD5Sum: 3675d7e192c0d65d3a80e0c2c77ec7e7
+Description:  Telnet client
+
+Package: perl-uri
+Version: 1.36-1
+Depends: libc, perl
+Source: feeds/packages/lang/perl-uri
+SourceFile: URI-1.36.tar.gz
+SourceURL: http://search.cpan.org/CPAN/authors/id/G/GA/GAAS
+Section: lang
+Architecture: ib42x0
+Installed-Size: 19549
+Filename: perl-uri_1.36-1_ib42x0.ipk
+Size: 20150
+MD5Sum: 3c3a435e42f7f76dfd56647a8682eee2
+Description:  Manipulates and accesses URI strings
+
+Package: perl-www-curl
+Version: 4.00-1
+Depends: libc, perl, libcurl
+Source: feeds/packages/lang/perl-www-curl
+SourceFile: WWW-Curl-4.00.tar.gz
+SourceURL: http://search.cpan.org/CPAN/authors/id/S/SZ/SZBALINT
+Section: lang
+Architecture: ib42x0
+Installed-Size: 20826
+Filename: perl-www-curl_4.00-1_ib42x0.ipk
+Size: 21378
+MD5Sum: 416d5a5f99abca0637e48443eb0e969d
+Description:  Perl bindings to libcurl
+
+Package: perl-www-mechanize
+Version: 1.58-1
+Depends: libc, perl, perl-www
+Source: feeds/packages/lang/perl-www-mechanize
+SourceFile: WWW-Mechanize-1.58.tar.gz
+SourceURL: http://search.cpan.org/CPAN/authors/id/P/PE/PETDANCE/
+Section: lang
+Architecture: ib42x0
+Installed-Size: 9770
+Filename: perl-www-mechanize_1.58-1_ib42x0.ipk
+Size: 10362
+MD5Sum: 9e45fad2f9ac9de68b08f3c04aab38c5
+Description:  Perl WWW Mechanize
+
+Package: perl-www
+Version: 5.812-1
+Depends: libc, perl, perl-html-parser, perl-uri
+Source: feeds/packages/lang/perl-www
+SourceFile: libwww-perl-5.812.tar.gz
+SourceURL: http://search.cpan.org/CPAN/authors/id/G/GA/GAAS
+Section: lang
+Architecture: ib42x0
+Installed-Size: 76162
+Filename: perl-www_5.812-1_ib42x0.ipk
+Size: 76896
+MD5Sum: 04632a9fe05bcaa3b40d303c405f78f5
+Description:  WWW client/server library for Perl (aka LWP)
+
+Package: perl
+Version: 5.10.0-7
+Depends: libc
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 525775
+Filename: perl_5.10.0-7_ib42x0.ipk
+Size: 526090
+MD5Sum: 7383a71e840041fda218440479cd8016
+Description:  Perl is a stable, cross platform programming language.
+ It is used for mission critical projects in the public and private sectors
+ and is widely used to program web applications of all needs.
+
+Package: perlbase-abbrev
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 507
+Filename: perlbase-abbrev_5.10.0-7_ib42x0.ipk
+Size: 1164
+MD5Sum: 942ec8b20ab7ecf1cc5ccdb42e0bc597
+Description:  abbrev perl module
+
+Package: perlbase-anydbm-file
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 442
+Filename: perlbase-anydbm-file_5.10.0-7_ib42x0.ipk
+Size: 1096
+MD5Sum: e8c025bc2bfe0fed41edb82350dbffea
+Description:  AnyDBM_File perl module
+
+Package: perlbase-archive
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 18918
+Filename: perlbase-archive_5.10.0-7_ib42x0.ipk
+Size: 19605
+MD5Sum: f17f9c2ab107ed761652deb69b8948df
+Description:  Archive perl module
+
+Package: perlbase-assert
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 756
+Filename: perlbase-assert_5.10.0-7_ib42x0.ipk
+Size: 1425
+MD5Sum: 8a9692a1a7a1a2eb04c1437b83936f16
+Description:  assert perl module
+
+Package: perlbase-attribute
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 2844
+Filename: perlbase-attribute_5.10.0-7_ib42x0.ipk
+Size: 3492
+MD5Sum: 5bd61da4af0f7230a37cb440dfb7b9f6
+Description:  Attribute perl module
+
+Package: perlbase-attributes
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1051
+Filename: perlbase-attributes_5.10.0-7_ib42x0.ipk
+Size: 1722
+MD5Sum: eb81348fad50696c3c81517dc2cab979
+Description:  attributes perl module
+
+Package: perlbase-attrs
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 3431
+Filename: perlbase-attrs_5.10.0-7_ib42x0.ipk
+Size: 4076
+MD5Sum: 61b71f54eabf1eb045c625a4dc7738a4
+Description:  attrs perl module
+
+Package: perlbase-autoloader
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 2280
+Filename: perlbase-autoloader_5.10.0-7_ib42x0.ipk
+Size: 2969
+MD5Sum: 35256334cde7f952a7c2dd033fab39be
+Description:  AutoLoader perl module
+
+Package: perlbase-autosplit
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 4690
+Filename: perlbase-autosplit_5.10.0-7_ib42x0.ipk
+Size: 5350
+MD5Sum: 41fee5724545e05d13d367720afe9b55
+Description:  AutoSplit perl module
+
+Package: perlbase-autouse
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1092
+Filename: perlbase-autouse_5.10.0-7_ib42x0.ipk
+Size: 1754
+MD5Sum: 797f9f54cc2c2001168f6cbd2bc0d4a5
+Description:  autouse perl module
+
+Package: perlbase-b
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 87391
+Filename: perlbase-b_5.10.0-7_ib42x0.ipk
+Size: 87794
+MD5Sum: c8a80a86d25a05f3b2221e4dc09bc046
+Description:  B perl module
+
+Package: perlbase-base
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 2064
+Filename: perlbase-base_5.10.0-7_ib42x0.ipk
+Size: 2734
+MD5Sum: 521f0edb56c117ff186bb83d1cf6aacf
+Description:  base perl module
+
+Package: perlbase-benchmark
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 5838
+Filename: perlbase-benchmark_5.10.0-7_ib42x0.ipk
+Size: 6508
+MD5Sum: 26ada491788fa4c431682d591587e967
+Description:  Benchmark perl module
+
+Package: perlbase-bigfloat
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1789
+Filename: perlbase-bigfloat_5.10.0-7_ib42x0.ipk
+Size: 2478
+MD5Sum: bbf8abd9c81ef9b23aa80334e1d7d176
+Description:  bigfloat perl module
+
+Package: perlbase-bigint
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 4730
+Filename: perlbase-bigint_5.10.0-7_ib42x0.ipk
+Size: 5405
+MD5Sum: 014e203f89520b2665a14c20d0fc4c36
+Description:  bigint perl module
+
+Package: perlbase-bignum
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 2423
+Filename: perlbase-bignum_5.10.0-7_ib42x0.ipk
+Size: 3062
+MD5Sum: 01858d2d43587ba42e3e53b6a53c7051
+Description:  bignum perl module
+
+Package: perlbase-bigrat
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 3134
+Filename: perlbase-bigrat_5.10.0-7_ib42x0.ipk
+Size: 3783
+MD5Sum: 79844ad9b913adbaea8c6e0e6ae8997b
+Description:  bigrat perl module
+
+Package: perlbase-blib
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 903
+Filename: perlbase-blib_5.10.0-7_ib42x0.ipk
+Size: 1555
+MD5Sum: 0cc0d8b81a6254619a64e50f9f12e213
+Description:  blib perl module
+
+Package: perlbase-bytes
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 624
+Filename: perlbase-bytes_5.10.0-7_ib42x0.ipk
+Size: 1289
+MD5Sum: 7b8d2028d0d1cfd23795dcdd3bd94dd1
+Description:  bytes perl module
+
+Package: perlbase-cacheout
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 631
+Filename: perlbase-cacheout_5.10.0-7_ib42x0.ipk
+Size: 1291
+MD5Sum: 34ed053a7f3bacb47f1b9a37a41a9cc2
+Description:  cacheout perl module
+
+Package: perlbase-cgi
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 39651
+Filename: perlbase-cgi_5.10.0-7_ib42x0.ipk
+Size: 40397
+MD5Sum: 7bd6eda922ee75e30c60046124360dd1
+Description:  CGI perl module
+
+Package: perlbase-charnames
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 3649
+Filename: perlbase-charnames_5.10.0-7_ib42x0.ipk
+Size: 4302
+MD5Sum: 9ec412ef8abfa93097e2550ba3f6db2c
+Description:  charnames perl module
+
+Package: perlbase-class
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 2929
+Filename: perlbase-class_5.10.0-7_ib42x0.ipk
+Size: 3586
+MD5Sum: e94634811741949ce36ed00f635c85c4
+Description:  Class perl module
+
+Package: perlbase-complete
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1164
+Filename: perlbase-complete_5.10.0-7_ib42x0.ipk
+Size: 1836
+MD5Sum: 6d6b23dcc4846b1f1ae59ef0cf7d0408
+Description:  complete perl module
+
+Package: perlbase-compress
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 60870
+Filename: perlbase-compress_5.10.0-7_ib42x0.ipk
+Size: 61531
+MD5Sum: 04c60449125faf673d48bce54d67fab8
+Description:  Compress perl module
+
+Package: perlbase-config
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 10575
+Filename: perlbase-config_5.10.0-7_ib42x0.ipk
+Size: 11227
+MD5Sum: 56f08861e9912d5d7982cf6e630562a4
+Description:  Config perl module
+
+Package: perlbase-cpan
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 106249
+Filename: perlbase-cpan_5.10.0-7_ib42x0.ipk
+Size: 106986
+MD5Sum: 66eb0551d50e09979f82d16bf1a2a62d
+Description:  CPAN perl module
+
+Package: perlbase-cpanplus
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 109594
+Filename: perlbase-cpanplus_5.10.0-7_ib42x0.ipk
+Size: 110374
+MD5Sum: 739194a4915068c838cf520a011900ff
+Description:  CPANPLUS perl module
+
+Package: perlbase-ctime
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1168
+Filename: perlbase-ctime_5.10.0-7_ib42x0.ipk
+Size: 1839
+MD5Sum: 0e038ac6edb7432b94ea5c68dac86de1
+Description:  ctime perl module
+
+Package: perlbase-cwd
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 8296
+Filename: perlbase-cwd_5.10.0-7_ib42x0.ipk
+Size: 8993
+MD5Sum: eb353a2339876fc023dfe69b403ecfe3
+Description:  Cwd perl module
+
+Package: perlbase-data
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 19002
+Filename: perlbase-data_5.10.0-7_ib42x0.ipk
+Size: 19673
+MD5Sum: d7e2a1093a54925329e26e6ec3949a9d
+Description:  Data perl module
+
+Package: perlbase-db-file
+Version: 5.10.0-7
+Depends: libc, perl, libdb47
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 23210
+Filename: perlbase-db-file_5.10.0-7_ib42x0.ipk
+Size: 23865
+MD5Sum: 93a1935f5225322fb571a6f3163eb07e
+Description:  DB_File perl module
+
+Package: perlbase-db
+Version: 5.10.0-7
+Depends: libc, perl, libdb47
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 3597
+Filename: perlbase-db_5.10.0-7_ib42x0.ipk
+Size: 4263
+MD5Sum: b96249e836dd33f436867f5dbe305082
+Description:  DB perl module
+
+Package: perlbase-dbm-filter
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 2416
+Filename: perlbase-dbm-filter_5.10.0-7_ib42x0.ipk
+Size: 3078
+MD5Sum: 0d111a6964fad8268b6922d86ca7018e
+Description:  DBM_Filter perl module
+
+Package: perlbase-devel
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 67504
+Filename: perlbase-devel_5.10.0-7_ib42x0.ipk
+Size: 68047
+MD5Sum: 68bfda454deb7aa7785d875071f2a0d6
+Description:  Devel perl module
+
+Package: perlbase-diagnostics
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 4523
+Filename: perlbase-diagnostics_5.10.0-7_ib42x0.ipk
+Size: 5174
+MD5Sum: c5607031a44441b49352d270712b00eb
+Description:  diagnostics perl module
+
+Package: perlbase-digest
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 29820
+Filename: perlbase-digest_5.10.0-7_ib42x0.ipk
+Size: 30492
+MD5Sum: 9cdce8e4b361ea8ab7800192f1a5422a
+Description:  Digest perl module
+
+Package: perlbase-dirhandle
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 627
+Filename: perlbase-dirhandle_5.10.0-7_ib42x0.ipk
+Size: 1293
+MD5Sum: aca374cbdacba3437432f33e8e508c52
+Description:  DirHandle perl module
+
+Package: perlbase-dotsh
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 740
+Filename: perlbase-dotsh_5.10.0-7_ib42x0.ipk
+Size: 1404
+MD5Sum: 03c38cf20905392c3c3a029f5c4c7689
+Description:  dotsh perl module
+
+Package: perlbase-dumpvalue
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 4033
+Filename: perlbase-dumpvalue_5.10.0-7_ib42x0.ipk
+Size: 4698
+MD5Sum: aa303ab334ad545e9cf0ecedc92f169e
+Description:  Dumpvalue perl module
+
+Package: perlbase-dumpvar
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 4848
+Filename: perlbase-dumpvar_5.10.0-7_ib42x0.ipk
+Size: 5512
+MD5Sum: 31b9a8d5ae5195572ac694387e96ece6
+Description:  dumpvar perl module
+
+Package: perlbase-dynaloader
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 4203
+Filename: perlbase-dynaloader_5.10.0-7_ib42x0.ipk
+Size: 4845
+MD5Sum: debd6331ecf259578067fbb5fdb03a10
+Description:  DynaLoader perl module
+
+Package: perlbase-encode
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1903683
+Filename: perlbase-encode_5.10.0-7_ib42x0.ipk
+Size: 1675031
+MD5Sum: 5c4df18cd91afae75bb82dd6551d0724
+Description:  Encode perl module
+
+Package: perlbase-encoding
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 2688
+Filename: perlbase-encoding_5.10.0-7_ib42x0.ipk
+Size: 3328
+MD5Sum: 4aa8c49835718ff56936ad3b8909b4aa
+Description:  encoding perl module
+
+Package: perlbase-english
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1360
+Filename: perlbase-english_5.10.0-7_ib42x0.ipk
+Size: 2034
+MD5Sum: bcf0f6f15b77b347982264e4b52dd730
+Description:  English perl module
+
+Package: perlbase-env
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1076
+Filename: perlbase-env_5.10.0-7_ib42x0.ipk
+Size: 1749
+MD5Sum: 676edc8972b27a43b8aacaa658479b60
+Description:  Env perl module
+
+Package: perlbase-errno
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 2562
+Filename: perlbase-errno_5.10.0-7_ib42x0.ipk
+Size: 3206
+MD5Sum: f53c2ef654922f46532f52094a4964e9
+Description:  Errno perl module
+
+Package: perlbase-essential
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 12740
+Filename: perlbase-essential_5.10.0-7_ib42x0.ipk
+Size: 13403
+MD5Sum: fa84d1cc78d4e03e5ebfd533e4cfed7a
+Description:  essential perl module
+
+Package: perlbase-exceptions
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 441
+Filename: perlbase-exceptions_5.10.0-7_ib42x0.ipk
+Size: 1093
+MD5Sum: f8ca23367807452097ac956d4c35848c
+Description:  exceptions perl module
+
+Package: perlbase-extutils
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 141402
+Filename: perlbase-extutils_5.10.0-7_ib42x0.ipk
+Size: 142177
+MD5Sum: e93046f47aad75e04caf818e144e1c9a
+Description:  ExtUtils perl module
+
+Package: perlbase-fastcwd
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 477
+Filename: perlbase-fastcwd_5.10.0-7_ib42x0.ipk
+Size: 1132
+MD5Sum: edf975525aa69d11641c36c70978009c
+Description:  fastcwd perl module
+
+Package: perlbase-fatal
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1677
+Filename: perlbase-fatal_5.10.0-7_ib42x0.ipk
+Size: 2348
+MD5Sum: 20349689264dca906eab00238a4eff90
+Description:  Fatal perl module
+
+Package: perlbase-fcntl
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 6345
+Filename: perlbase-fcntl_5.10.0-7_ib42x0.ipk
+Size: 6963
+MD5Sum: 9afcdecc754559c3e8a0ddc3105a4f28
+Description:  Fcntl perl module
+
+Package: perlbase-feature
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 766
+Filename: perlbase-feature_5.10.0-7_ib42x0.ipk
+Size: 1426
+MD5Sum: 5d7e5bc6c0182a38f9696063a1c0ec0b
+Description:  feature perl module
+
+Package: perlbase-fields
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1912
+Filename: perlbase-fields_5.10.0-7_ib42x0.ipk
+Size: 2595
+MD5Sum: 8afb699ce70f42c5a42ef0b3f735b840
+Description:  fields perl module
+
+Package: perlbase-file
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 59158
+Filename: perlbase-file_5.10.0-7_ib42x0.ipk
+Size: 59953
+MD5Sum: ccb0382cb3f9a8af44037c5ef1ea658f
+Description:  File perl module
+
+Package: perlbase-filecache
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1429
+Filename: perlbase-filecache_5.10.0-7_ib42x0.ipk
+Size: 2103
+MD5Sum: c8427d38b57bf655d9dffcdb9be367c2
+Description:  FileCache perl module
+
+Package: perlbase-filehandle
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1004
+Filename: perlbase-filehandle_5.10.0-7_ib42x0.ipk
+Size: 1679
+MD5Sum: 352c9c0a3d8bf8f8596f68efc1aebe6d
+Description:  FileHandle perl module
+
+Package: perlbase-filetest
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 418
+Filename: perlbase-filetest_5.10.0-7_ib42x0.ipk
+Size: 1069
+MD5Sum: 2039286b3692a70323c8b298d44e06a6
+Description:  filetest perl module
+
+Package: perlbase-filter
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 7880
+Filename: perlbase-filter_5.10.0-7_ib42x0.ipk
+Size: 8569
+MD5Sum: 947bdd47de3726222a9be3ad3c7e3471
+Description:  Filter perl module
+
+Package: perlbase-find
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 346
+Filename: perlbase-find_5.10.0-7_ib42x0.ipk
+Size: 997
+MD5Sum: 0a7176279730d0472ffb3e8b3da813f4
+Description:  find perl module
+
+Package: perlbase-findbin
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1459
+Filename: perlbase-findbin_5.10.0-7_ib42x0.ipk
+Size: 2131
+MD5Sum: 453cdae66e006c5ed4f925ec924afed1
+Description:  FindBin perl module
+
+Package: perlbase-finddepth
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 350
+Filename: perlbase-finddepth_5.10.0-7_ib42x0.ipk
+Size: 1006
+MD5Sum: 59483dd490b90d6d97be63476411b1d0
+Description:  finddepth perl module
+
+Package: perlbase-flush
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 381
+Filename: perlbase-flush_5.10.0-7_ib42x0.ipk
+Size: 1034
+MD5Sum: 3b034c04005cc8b606c74d9d6ca5b548
+Description:  flush perl module
+
+Package: perlbase-gdbm-file
+Version: 5.10.0-7
+Depends: libc, perl, libgdbm
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 9701
+Filename: perlbase-gdbm-file_5.10.0-7_ib42x0.ipk
+Size: 10394
+MD5Sum: 3d388a9e0fc1d6ff8f8f14d870799f2b
+Description:  GDBM_File perl module
+
+Package: perlbase-getcwd
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 631
+Filename: perlbase-getcwd_5.10.0-7_ib42x0.ipk
+Size: 1298
+MD5Sum: 3d0cc5309889448d62251ebdfd12873e
+Description:  getcwd perl module
+
+Package: perlbase-getopt
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 12703
+Filename: perlbase-getopt_5.10.0-7_ib42x0.ipk
+Size: 13375
+MD5Sum: a840bab86d8d5029c619dc9e8366213d
+Description:  Getopt perl module
+
+Package: perlbase-getoptpl
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1064
+Filename: perlbase-getoptpl_5.10.0-7_ib42x0.ipk
+Size: 1732
+MD5Sum: 363a073480768d98bed474e27dbc56de
+Description:  getoptpl perl module
+
+Package: perlbase-hash
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 11179
+Filename: perlbase-hash_5.10.0-7_ib42x0.ipk
+Size: 11849
+MD5Sum: 5fede89f493a391220532aa633dd8a67
+Description:  Hash perl module
+
+Package: perlbase-hostname
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 428
+Filename: perlbase-hostname_5.10.0-7_ib42x0.ipk
+Size: 1080
+MD5Sum: b1e2e59a8b74be8cbe5709f1271637df
+Description:  hostname perl module
+
+Package: perlbase-i18n
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 13212
+Filename: perlbase-i18n_5.10.0-7_ib42x0.ipk
+Size: 13854
+MD5Sum: 011f23f16770c4ad713f22055ad8b32a
+Description:  I18N perl module
+
+Package: perlbase-if
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 560
+Filename: perlbase-if_5.10.0-7_ib42x0.ipk
+Size: 1214
+MD5Sum: cf37509fc0aac1c9f47675054bcc8bca
+Description:  if perl module
+
+Package: perlbase-importenv
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 431
+Filename: perlbase-importenv_5.10.0-7_ib42x0.ipk
+Size: 1086
+MD5Sum: d1db3fc8fb0dae17feb30dbf3a00a217
+Description:  importenv perl module
+
+Package: perlbase-integer
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 316
+Filename: perlbase-integer_5.10.0-7_ib42x0.ipk
+Size: 961
+MD5Sum: 89c738077119680d3a7c46857121fb79
+Description:  integer perl module
+
+Package: perlbase-io
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 55765
+Filename: perlbase-io_5.10.0-7_ib42x0.ipk
+Size: 56463
+MD5Sum: df6b2008c023f06a52feb351038e96f2
+Description:  IO perl module
+
+Package: perlbase-ipc
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 13707
+Filename: perlbase-ipc_5.10.0-7_ib42x0.ipk
+Size: 14374
+MD5Sum: 36e21704b19b541e899dae312ea3d6b1
+Description:  IPC perl module
+
+Package: perlbase-less
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 675
+Filename: perlbase-less_5.10.0-7_ib42x0.ipk
+Size: 1326
+MD5Sum: d2bb38bfe4a7e5254da33dfc52937308
+Description:  less perl module
+
+Package: perlbase-list
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 10013
+Filename: perlbase-list_5.10.0-7_ib42x0.ipk
+Size: 10664
+MD5Sum: 3dddc9f963934348bbad34616557a4ff
+Description:  List perl module
+
+Package: perlbase-locale
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 19825
+Filename: perlbase-locale_5.10.0-7_ib42x0.ipk
+Size: 20519
+MD5Sum: e8d1af7a62ccf4225d445cf4a198b051
+Description:  Locale perl module
+
+Package: perlbase-log
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 4015
+Filename: perlbase-log_5.10.0-7_ib42x0.ipk
+Size: 4640
+MD5Sum: bb907debe06f90c334cd70e15bf87058
+Description:  Log perl module
+
+Package: perlbase-look
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 718
+Filename: perlbase-look_5.10.0-7_ib42x0.ipk
+Size: 1371
+MD5Sum: af8c6ea24b7542a1cdbf7e0b41019e8d
+Description:  look perl module
+
+Package: perlbase-math
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 85531
+Filename: perlbase-math_5.10.0-7_ib42x0.ipk
+Size: 86263
+MD5Sum: f4390547feb939184cc6fbd6497f2655
+Description:  Math perl module
+
+Package: perlbase-memoize
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 5846
+Filename: perlbase-memoize_5.10.0-7_ib42x0.ipk
+Size: 6499
+MD5Sum: db63516e837ad0da72a5b8903c2ca208
+Description:  Memoize perl module
+
+Package: perlbase-mime
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 6136
+Filename: perlbase-mime_5.10.0-7_ib42x0.ipk
+Size: 6798
+MD5Sum: 259083194a64c449cb089dc1fc4872ba
+Description:  MIME perl module
+
+Package: perlbase-module
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 98172
+Filename: perlbase-module_5.10.0-7_ib42x0.ipk
+Size: 98840
+MD5Sum: a7f231a66876cdd7f2ea4bd758bf095b
+Description:  Module perl module
+
+Package: perlbase-mro
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 445
+Filename: perlbase-mro_5.10.0-7_ib42x0.ipk
+Size: 1093
+MD5Sum: b70c7b1915856c63bb47bd39962d5142
+Description:  mro perl module
+
+Package: perlbase-net
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 36959
+Filename: perlbase-net_5.10.0-7_ib42x0.ipk
+Size: 37709
+MD5Sum: 8894c603da7c8611ae3f32077d19ccb2
+Description:  Net perl module
+
+Package: perlbase-next
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1495
+Filename: perlbase-next_5.10.0-7_ib42x0.ipk
+Size: 2173
+MD5Sum: da71a1321e456dd321abf04c22c63998
+Description:  NEXT perl module
+
+Package: perlbase-o
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 831
+Filename: perlbase-o_5.10.0-7_ib42x0.ipk
+Size: 1487
+MD5Sum: e60b2f11c8e2a3cbca06767d9e7f2581
+Description:  O perl module
+
+Package: perlbase-object
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 3211
+Filename: perlbase-object_5.10.0-7_ib42x0.ipk
+Size: 3866
+MD5Sum: 39ec970fdaf305401a904e40e2051045
+Description:  Object perl module
+
+Package: perlbase-opcode
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 9900
+Filename: perlbase-opcode_5.10.0-7_ib42x0.ipk
+Size: 10565
+MD5Sum: c6383c86fc0b9d7945339678105c889d
+Description:  Opcode perl module
+
+Package: perlbase-open
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1726
+Filename: perlbase-open_5.10.0-7_ib42x0.ipk
+Size: 2408
+MD5Sum: 7f1a5f5c24c100744d38af8a6b466b50
+Description:  open perl module
+
+Package: perlbase-ops
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 483
+Filename: perlbase-ops_5.10.0-7_ib42x0.ipk
+Size: 1135
+MD5Sum: 232cf0e19495684903fd77d0cb7afc9f
+Description:  ops perl module
+
+Package: perlbase-package
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 667
+Filename: perlbase-package_5.10.0-7_ib42x0.ipk
+Size: 1329
+MD5Sum: 5e2b76abbe0278242b683f3ee2ba8b9a
+Description:  Package perl module
+
+Package: perlbase-params
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 3373
+Filename: perlbase-params_5.10.0-7_ib42x0.ipk
+Size: 4024
+MD5Sum: 65fa31ec324b13bea4c6002837914272
+Description:  Params perl module
+
+Package: perlbase-perl5db
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 57909
+Filename: perlbase-perl5db_5.10.0-7_ib42x0.ipk
+Size: 58716
+MD5Sum: 7465534fac23969143e7b8cbb9c52f90
+Description:  perl5db perl module
+
+Package: perlbase-perlio
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 18340
+Filename: perlbase-perlio_5.10.0-7_ib42x0.ipk
+Size: 18946
+MD5Sum: ffb97a559f77c3ac8c3c2b15bafb71f6
+Description:  PerlIO perl module
+
+Package: perlbase-pod
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 172572
+Filename: perlbase-pod_5.10.0-7_ib42x0.ipk
+Size: 173241
+MD5Sum: 6d63aadbfaf9393d1ac7533a3fad71fc
+Description:  Pod perl module
+
+Package: perlbase-posix
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 47329
+Filename: perlbase-posix_5.10.0-7_ib42x0.ipk
+Size: 47065
+MD5Sum: 714473cec211a14e2da3f5fde327d727
+Description:  POSIX perl module
+
+Package: perlbase-pwd
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 764
+Filename: perlbase-pwd_5.10.0-7_ib42x0.ipk
+Size: 1418
+MD5Sum: e7070380855d720e7825391906722090
+Description:  pwd perl module
+
+Package: perlbase-re
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 128279
+Filename: perlbase-re_5.10.0-7_ib42x0.ipk
+Size: 128619
+MD5Sum: 7129ba71d0c4a0a5cc2edf0ba181634e
+Description:  re perl module
+
+Package: perlbase-safe
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 2854
+Filename: perlbase-safe_5.10.0-7_ib42x0.ipk
+Size: 3495
+MD5Sum: 06f38f4fefc066da27c53b6677db6b7f
+Description:  Safe perl module
+
+Package: perlbase-scalar
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1570
+Filename: perlbase-scalar_5.10.0-7_ib42x0.ipk
+Size: 2238
+MD5Sum: 59f5e120868cf651fe1162b3dee95d3f
+Description:  Scalar perl module
+
+Package: perlbase-sdbm-file
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 11551
+Filename: perlbase-sdbm-file_5.10.0-7_ib42x0.ipk
+Size: 12186
+MD5Sum: fba9f1bdadd669ffffb50a25c841ebfb
+Description:  SDBM_File perl module
+
+Package: perlbase-search
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 905
+Filename: perlbase-search_5.10.0-7_ib42x0.ipk
+Size: 1562
+MD5Sum: 562f3f405fac5a73523ec00fd6d6dd1f
+Description:  Search perl module
+
+Package: perlbase-selectsaver
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 435
+Filename: perlbase-selectsaver_5.10.0-7_ib42x0.ipk
+Size: 1093
+MD5Sum: cfa2b0f25b0347e14348a819d3e9b181
+Description:  SelectSaver perl module
+
+Package: perlbase-selfloader
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 2112
+Filename: perlbase-selfloader_5.10.0-7_ib42x0.ipk
+Size: 2800
+MD5Sum: c69a35dbb765b8906da46608c36289a1
+Description:  SelfLoader perl module
+
+Package: perlbase-shell
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1460
+Filename: perlbase-shell_5.10.0-7_ib42x0.ipk
+Size: 2139
+MD5Sum: de0ef00389123303015e3f21f752ca56
+Description:  Shell perl module
+
+Package: perlbase-shellwords
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 352
+Filename: perlbase-shellwords_5.10.0-7_ib42x0.ipk
+Size: 1008
+MD5Sum: 350294baa4ac20457c27141cbc3dc2bd
+Description:  shellwords perl module
+
+Package: perlbase-sigtrap
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1453
+Filename: perlbase-sigtrap_5.10.0-7_ib42x0.ipk
+Size: 2119
+MD5Sum: 2e6cdda98cdfd1a62763d5f743b3186b
+Description:  sigtrap perl module
+
+Package: perlbase-socket
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 9083
+Filename: perlbase-socket_5.10.0-7_ib42x0.ipk
+Size: 9659
+MD5Sum: 6819f3f34ca5692b774efec891a71eab
+Description:  Socket perl module
+
+Package: perlbase-sort
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 725
+Filename: perlbase-sort_5.10.0-7_ib42x0.ipk
+Size: 1393
+MD5Sum: e93b4de38c2bd2e51d02939e2854a6b1
+Description:  sort perl module
+
+Package: perlbase-stat
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 514
+Filename: perlbase-stat_5.10.0-7_ib42x0.ipk
+Size: 1164
+MD5Sum: 927feaf00bb227b51d7b37d01f63772a
+Description:  stat perl module
+
+Package: perlbase-storable
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 32357
+Filename: perlbase-storable_5.10.0-7_ib42x0.ipk
+Size: 33019
+MD5Sum: 6b41398d1bad0c0dfd3de7781c31cbff
+Description:  Storable perl module
+
+Package: perlbase-switch
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 3860
+Filename: perlbase-switch_5.10.0-7_ib42x0.ipk
+Size: 4530
+MD5Sum: 8ca552d0a93e38d5ca2ef6f8d331106c
+Description:  Switch perl module
+
+Package: perlbase-symbol
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1118
+Filename: perlbase-symbol_5.10.0-7_ib42x0.ipk
+Size: 1781
+MD5Sum: 840eaeba5dbce11d0efcdf041eba64b5
+Description:  Symbol perl module
+
+Package: perlbase-sys
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 15235
+Filename: perlbase-sys_5.10.0-7_ib42x0.ipk
+Size: 15863
+MD5Sum: 5356d3c19ff502ced3aeee658e275445
+Description:  Sys perl module
+
+Package: perlbase-syslog
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1837
+Filename: perlbase-syslog_5.10.0-7_ib42x0.ipk
+Size: 2507
+MD5Sum: 33556f999d959d2c15d204f5c2481956
+Description:  syslog perl module
+
+Package: perlbase-tainted
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 288
+Filename: perlbase-tainted_5.10.0-7_ib42x0.ipk
+Size: 934
+MD5Sum: 7f2a990af103e3d0dedf590175420ba9
+Description:  tainted perl module
+
+Package: perlbase-term
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 11348
+Filename: perlbase-term_5.10.0-7_ib42x0.ipk
+Size: 12004
+MD5Sum: 2b9de7cf3389caa773ad14e2851e5db7
+Description:  Term perl module
+
+Package: perlbase-termcap
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1664
+Filename: perlbase-termcap_5.10.0-7_ib42x0.ipk
+Size: 2329
+MD5Sum: 114d8b3fae219c8aaedd50d7775b8f97
+Description:  termcap perl module
+
+Package: perlbase-test
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 31895
+Filename: perlbase-test_5.10.0-7_ib42x0.ipk
+Size: 32613
+MD5Sum: 18d2714ee8a773248f8ce088354c5b70
+Description:  Test perl module
+
+Package: perlbase-text
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 14527
+Filename: perlbase-text_5.10.0-7_ib42x0.ipk
+Size: 15174
+MD5Sum: d06ecfb7d5474a2fca77126cafaccb04
+Description:  Text perl module
+
+Package: perlbase-thread
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 920
+Filename: perlbase-thread_5.10.0-7_ib42x0.ipk
+Size: 1593
+MD5Sum: 4eb8d081ae59f10db4f530958f51681b
+Description:  Thread perl module
+
+Package: perlbase-threads
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 4392
+Filename: perlbase-threads_5.10.0-7_ib42x0.ipk
+Size: 5022
+MD5Sum: a698ef82187ec043fe9028d86b9d5639
+Description:  threads perl module
+
+Package: perlbase-tie
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 17870
+Filename: perlbase-tie_5.10.0-7_ib42x0.ipk
+Size: 18542
+MD5Sum: c6089137b3193d8ae7f80a17ab8e3388
+Description:  Tie perl module
+
+Package: perlbase-time
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 20180
+Filename: perlbase-time_5.10.0-7_ib42x0.ipk
+Size: 20865
+MD5Sum: 0d6324131e641d74eb29e374f1d1e2e4
+Description:  Time perl module
+
+Package: perlbase-timelocal
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 597
+Filename: perlbase-timelocal_5.10.0-7_ib42x0.ipk
+Size: 1254
+MD5Sum: 548e8d6ab89266d871674b5aea2dc9bb
+Description:  timelocal perl module
+
+Package: perlbase-unicode
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 319041
+Filename: perlbase-unicode_5.10.0-7_ib42x0.ipk
+Size: 303243
+MD5Sum: 8fef04853c794baf1ea03281b713e00b
+Description:  Unicode perl module
+
+Package: perlbase-unicore
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1023308
+Filename: perlbase-unicore_5.10.0-7_ib42x0.ipk
+Size: 986880
+MD5Sum: ed80d99cf49ab850fe3f0f96de862d7f
+Description:  unicore perl module
+
+Package: perlbase-universal
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 370
+Filename: perlbase-universal_5.10.0-7_ib42x0.ipk
+Size: 1028
+MD5Sum: eca0a0eef53d97334262a2598a20d075
+Description:  UNIVERSAL perl module
+
+Package: perlbase-user
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 2069
+Filename: perlbase-user_5.10.0-7_ib42x0.ipk
+Size: 2709
+MD5Sum: f031b71ed8db133f6dc6df599e3a48ed
+Description:  User perl module
+
+Package: perlbase-utf8
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 3384
+Filename: perlbase-utf8_5.10.0-7_ib42x0.ipk
+Size: 4033
+MD5Sum: d480183954d34a970eae0f9de241727a
+Description:  utf8 perl module
+
+Package: perlbase-validate
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1580
+Filename: perlbase-validate_5.10.0-7_ib42x0.ipk
+Size: 2261
+MD5Sum: 8fbb530ec4e38be3c5bef099ff9f1fe5
+Description:  validate perl module
+
+Package: perlbase-version
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 447
+Filename: perlbase-version_5.10.0-7_ib42x0.ipk
+Size: 1094
+MD5Sum: a2b8d2c15b64e51d65cd42a6f65235d0
+Description:  version perl module
+
+Package: perlbase-xsloader
+Version: 5.10.0-7
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+SourceFile: perl-5.10.0.tar.gz
+SourceURL: ftp://ftp.cpan.org/pub/CPAN/src/5.0 ftp://ftp.mpi-sb.mpg.de/pub/perl/CPAN/src/5.0 ftp://ftp.gmd.de/mirrors/CPAN/src/5.0 ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0
+License: GPLv1 ARTISTIC
+LicenseFiles: Copying Artisitc README
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1418
+Filename: perlbase-xsloader_5.10.0-7_ib42x0.ipk
+Size: 2086
+MD5Sum: ae4a0dd1386c1c0fe0c25a1195ea3fd5
+Description:  XSLoader perl module
 
 Package: procd
 Version: 2013-04-25-c28ba8c1947e1b31874bf5888742d1607ed7ae61
