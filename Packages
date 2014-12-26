@@ -1,3 +1,19 @@
+Package: alsa-lib
+Version: 1.0.24.1-1
+Depends: libc, kmod-sound-core, libpthread, librt
+Source: feeds/packages/libs/alsa-lib
+SourceFile: alsa-lib-1.0.24.1.tar.bz2
+SourceURL: ftp://ftp.alsa-project.org/pub/lib/ http://alsa.cybermirror.org/lib/
+License: LGPLv2.1 GPLv2
+Section: libs
+Architecture: ib42x0
+Installed-Size: 315269
+Filename: alsa-lib_1.0.24.1-1_ib42x0.ipk
+Size: 312122
+MD5Sum: cb760b71f1f3d276f17335d4c72ed633
+Description:  This is the library package for alsa, needed by some userspace programs.
+ You must have enabled the ALSA support in the kernel.
+
 Package: at
 Version: 3.1.13-1
 Depends: libc, libelf1
@@ -1596,6 +1612,20 @@ Description:  Full versions of standard GNU utilities. Normally, you would not u
  package, since the functionality in BusyBox is more than sufficient and
  smaller.
 
+Package: dash
+Version: 0.5.7-1
+Depends: libc
+Source: feeds/packages/utils/dash
+SourceFile: dash-0.5.7.tar.gz
+SourceURL: http://gondor.apana.org.au/~herbert/dash/files
+Section: base
+Architecture: ib42x0
+Installed-Size: 41320
+Filename: dash_0.5.7-1_ib42x0.ipk
+Size: 41938
+MD5Sum: 4f9b918ed2672dd791a956584f8929d4
+Description:  A small footprint, POSIX complied unix shell
+
 Package: dbus-utils
 Version: 1.4.14-2
 Depends: libc, dbus
@@ -1689,6 +1719,44 @@ Description:  FastCGI is a language independent, scalable, open extension to
  CGI that provides high performance without the limitations of
  server specific APIs.
 
+Package: ffmpeg
+Version: 0.11.2-2
+Depends: libc, libpthread, libffmpeg, libbz2, libffmpeg-full
+Source: feeds/packages/multimedia/ffmpeg
+SourceFile: ffmpeg-0.11.2.tar.bz2
+SourceURL: http://ffmpeg.org/releases/
+License: LGPLv2.1+ GPLv2+ LGPLv3
+LicenseFiles: COPYING.GPLv2 COPYING.GPLv3 COPYING.LGPLv2.1 COPYING.LGPLv3
+Section: multimedia
+Architecture: ib42x0
+Installed-Size: 57964
+Filename: ffmpeg_0.11.2-2_ib42x0.ipk
+Size: 58557
+MD5Sum: b3e7b6c91f8bec131c17c16840ab0568
+Description:  FFmpeg is a a software package that can record, convert and stream digital 
+ audio and video in numerous formats.
+ .
+ This package contains the FFmpeg command line tool.
+
+Package: ffprobe
+Version: 0.11.2-2
+Depends: libc, libffmpeg-full
+Source: feeds/packages/multimedia/ffmpeg
+SourceFile: ffmpeg-0.11.2.tar.bz2
+SourceURL: http://ffmpeg.org/releases/
+License: LGPLv2.1+ GPLv2+ LGPLv3
+LicenseFiles: COPYING.GPLv2 COPYING.GPLv3 COPYING.LGPLv2.1 COPYING.LGPLv3
+Section: multimedia
+Architecture: ib42x0
+Installed-Size: 24909
+Filename: ffprobe_0.11.2-2_ib42x0.ipk
+Size: 25500
+MD5Sum: 912fde9fb594d30847af0d7966a8eed1
+Description:  FFmpeg is a a software package that can record, convert and stream digital 
+ audio and video in numerous formats.
+ .
+ This package contains the FFprobe command line tool.
+
 Package: file
 Version: 5.11-1
 Depends: libc, libmagic
@@ -1759,10 +1827,10 @@ SourceURL: http://ipset.netfilter.org
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: ib42x0
-Installed-Size: 55379
+Installed-Size: 55375
 Filename: ipset_6.16.1-1_ib42x0.ipk
-Size: 55572
-MD5Sum: 5394399390e6d393b7086dbd114ca194
+Size: 55563
+MD5Sum: 305e98275c260afde33b86e5f402537b
 Description:  IPset administration utility
 
 Package: jshn
@@ -1789,10 +1857,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 4511
+Installed-Size: 4509
 Filename: kmod-crypto-authenc_3.8.10-1_ib42x0.ipk
-Size: 5177
-MD5Sum: 773915c2dd78d73e1a80230ea4a39053
+Size: 5171
+MD5Sum: e3051b952429626251e4589c52c902e9
 Description:  Combined mode wrapper for IPsec
 
 Package: kmod-crypto-cbc
@@ -1806,7 +1874,7 @@ Architecture: ib42x0
 Installed-Size: 105
 Filename: kmod-crypto-cbc_3.8.10-1_ib42x0.ipk
 Size: 665
-MD5Sum: d3991b73edd1ca75fc0e1ff6ef48e2c8
+MD5Sum: eef4315b819572a247c592bc56406848
 Description:  Cipher Block Chaining CryptoAPI module
 
 Package: kmod-crypto-core
@@ -1817,10 +1885,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 105
+Installed-Size: 104
 Filename: kmod-crypto-core_3.8.10-1_ib42x0.ipk
-Size: 641
-MD5Sum: dc457a4929d7fa79431bfadeb074a7fc
+Size: 638
+MD5Sum: bea026d0c8c17890b71ca1280c752ea2
 Description:  Core CryptoAPI modules
 
 Package: kmod-crypto-deflate
@@ -1831,10 +1899,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 105
+Installed-Size: 104
 Filename: kmod-crypto-deflate_3.8.10-1_ib42x0.ipk
-Size: 665
-MD5Sum: d5e1c359c81e845e7cf1511616436c12
+Size: 666
+MD5Sum: 24bd4ec764d61daca58a12b55035afce
 Description:  Deflate compression CryptoAPI module
 
 Package: kmod-crypto-des
@@ -1845,10 +1913,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 104
+Installed-Size: 105
 Filename: kmod-crypto-des_3.8.10-1_ib42x0.ipk
-Size: 651
-MD5Sum: 0a41a5347b82590db7ee7f039d98eb88
+Size: 654
+MD5Sum: 6869610f2267b7371a7ed7e831ecdc5b
 Description:  DES/3DES cipher CryptoAPI module
 
 Package: kmod-crypto-hash
@@ -1861,8 +1929,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 105
 Filename: kmod-crypto-hash_3.8.10-1_ib42x0.ipk
-Size: 646
-MD5Sum: c5bb8b863b4cdad3c9f1939c7c8d85dc
+Size: 647
+MD5Sum: 715a8026ee69d5f22a328d1480e0c902
 Description:  CryptoAPI hash support
 
 Package: kmod-crypto-hmac
@@ -1873,10 +1941,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 105
+Installed-Size: 104
 Filename: kmod-crypto-hmac_3.8.10-1_ib42x0.ipk
-Size: 660
-MD5Sum: 178482564e700623691f72fd4952e989
+Size: 659
+MD5Sum: 955e4b9bad5e53793ed75644fb4be29b
 Description:  HMAC digest CryptoAPI module
 
 Package: kmod-crypto-iv
@@ -1887,10 +1955,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 105
+Installed-Size: 104
 Filename: kmod-crypto-iv_3.8.10-1_ib42x0.ipk
-Size: 670
-MD5Sum: 2a550cb52223fe1f5ee9ea78ab40aaa2
+Size: 667
+MD5Sum: bd7c17de559aac46dd163d55c28a0c29
 Description:  CryptoAPI initialization vectors
 
 Package: kmod-crypto-manager
@@ -1903,8 +1971,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 105
 Filename: kmod-crypto-manager_3.8.10-1_ib42x0.ipk
-Size: 654
-MD5Sum: 23bff6bb25f64add05acdc24ee30e8af
+Size: 656
+MD5Sum: 9c0d5a1390a0d9dad04c5b9b0ea474c9
 Description:  CryptoAPI algorithm manager
 
 Package: kmod-crypto-md5
@@ -1918,7 +1986,7 @@ Architecture: ib42x0
 Installed-Size: 105
 Filename: kmod-crypto-md5_3.8.10-1_ib42x0.ipk
 Size: 656
-MD5Sum: 504c61e38578778e84309a6807929a76
+MD5Sum: ab85737deed4d3afbee098b923c5b7b5
 Description:  MD5 digest CryptoAPI module
 
 Package: kmod-crypto-rng
@@ -1931,8 +1999,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 104
 Filename: kmod-crypto-rng_3.8.10-1_ib42x0.ipk
-Size: 656
-MD5Sum: 89916bb7cde43995f6c172d846e1efd5
+Size: 658
+MD5Sum: d7c2ca129b308a7478a3c6831b0956e2
 Description:  CryptoAPI random number generation
 
 Package: kmod-crypto-sha1
@@ -1945,8 +2013,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 105
 Filename: kmod-crypto-sha1_3.8.10-1_ib42x0.ipk
-Size: 654
-MD5Sum: 2c8aa17a712bcabbaf8bd0f29b769d84
+Size: 656
+MD5Sum: 5192410de73e708e597be30a99f5576e
 Description:  SHA1 digest CryptoAPI module
 
 Package: kmod-crypto-user
@@ -1957,10 +2025,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 9666
+Installed-Size: 9671
 Filename: kmod-crypto-user_3.8.10-1_ib42x0.ipk
-Size: 10355
-MD5Sum: 8cad3cfad86dc7bcd2449e6f5e19a93d
+Size: 10362
+MD5Sum: c961c55740d34d4fa61a737fedd45b2e
 Description:  CryptoAPI userspace interface
 
 Package: kmod-crypto-wq
@@ -1973,8 +2041,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 104
 Filename: kmod-crypto-wq_3.8.10-1_ib42x0.ipk
-Size: 653
-MD5Sum: 302d41b6dc1032212791a9418bce882b
+Size: 648
+MD5Sum: a88c4e2707cb4b65691ff64446e19a0c
 Description:  CryptoAPI work queue handling
 
 Package: kmod-dm
@@ -1985,11 +2053,25 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 61852
+Installed-Size: 61851
 Filename: kmod-dm_3.8.10-1_ib42x0.ipk
-Size: 62599
-MD5Sum: 0ad7bb6573996cda6958c79f4a1c6c2e
+Size: 62596
+MD5Sum: 7a45efc151a1ade51a9ca6a8bbdea837
 Description:  Kernel module necessary for LVM2 support
+
+Package: kmod-input-core
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0)
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 105
+Filename: kmod-input-core_3.8.10-1_ib42x0.ipk
+Size: 652
+MD5Sum: b3cd332064caf2ecaaed197f0cae1634
+Description:  Kernel modules for support of input device
 
 Package: kmod-ipsec4
 Version: 3.8.10-1
@@ -2001,8 +2083,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 13576
 Filename: kmod-ipsec4_3.8.10-1_ib42x0.ipk
-Size: 14294
-MD5Sum: eb13381ba452375e82aa6d5c782318a4
+Size: 14292
+MD5Sum: 5c237cbee20da9ee202250f340413baf
 Description:  Kernel modules for IPsec support in IPv4.
  Includes:
  - ah4
@@ -2021,10 +2103,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 14116
+Installed-Size: 14112
 Filename: kmod-ipsec6_3.8.10-1_ib42x0.ipk
-Size: 14842
-MD5Sum: 41779e40ee05a30d1fe73d1c206149bb
+Size: 14843
+MD5Sum: 243f0429c1979dffe358bb9bb9998f95
 Description:  Kernel modules for IPsec support in IPv6.
  Includes:
  - ah6
@@ -2043,10 +2125,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 32987
+Installed-Size: 32985
 Filename: kmod-ipsec_3.8.10-1_ib42x0.ipk
-Size: 33798
-MD5Sum: 5e1834572e286d1e3d0b9e173b4b7304
+Size: 33808
+MD5Sum: b049470b3f2926cc230264a83697a1ec
 Description:  Kernel modules for IPsec support in both IPv4 and IPv6.
  Includes:
  - af_key
@@ -2061,10 +2143,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 27492
+Installed-Size: 27494
 Filename: kmod-ipt-core_3.8.10-1_ib42x0.ipk
-Size: 28196
-MD5Sum: 0e8af92e0b979b774d4138781e1d19f9
+Size: 28197
+MD5Sum: a162eb2c0b2265b3dc1564b776d01a41
 Description:  Netfilter core kernel modules
  Includes:
  - comment
@@ -2084,10 +2166,10 @@ SourceURL: http://ipset.netfilter.org
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: ib42x0
-Installed-Size: 86256
+Installed-Size: 86252
 Filename: kmod-ipt-ipset_3.8.10+6.16.1-1_ib42x0.ipk
-Size: 86698
-MD5Sum: 9c6731da12673f810ac9c8b28aae9b37
+Size: 86677
+MD5Sum: 3d8f2c779b9a7d8014116660bed6176a
 Description:  IPset netfilter modules
 
 Package: kmod-iptunnel4
@@ -2098,10 +2180,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 2049
+Installed-Size: 2045
 Filename: kmod-iptunnel4_3.8.10-1_ib42x0.ipk
-Size: 2693
-MD5Sum: 65d18f13ad82c281e392290b44086acf
+Size: 2692
+MD5Sum: 79a52560c8f6ea80e5634cd5cb1d4d61
 Description:  Kernel modules for IPv4 tunneling
 
 Package: kmod-iptunnel6
@@ -2114,8 +2196,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 2084
 Filename: kmod-iptunnel6_3.8.10-1_ib42x0.ipk
-Size: 2736
-MD5Sum: 9c22b0a23daa9ea5298bbb10a2897a34
+Size: 2740
+MD5Sum: 8efc18197d175b0b30c1598d1f6dd0ae
 Description:  Kernel modules for IPv6 tunneling
 
 Package: kmod-ipv6
@@ -2126,10 +2208,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 138357
+Installed-Size: 138359
 Filename: kmod-ipv6_3.8.10-1_ib42x0.ipk
-Size: 138863
-MD5Sum: f89483e1848c523c11b74697209d18e3
+Size: 138830
+MD5Sum: 0d554400d593e0884f1c626b25fe8435
 Description:  Kernel modules for IPv6 support
 
 Package: kmod-lib-zlib
@@ -2142,8 +2224,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 104
 Filename: kmod-lib-zlib_3.8.10-1_ib42x0.ipk
-Size: 634
-MD5Sum: c6dee33e2bb7047e6e5307cdc7f682eb
+Size: 632
+MD5Sum: 70780e9eb310f08216340abd7152a80a
 Description:  Zlib support
 
 Package: kmod-nfnetlink
@@ -2154,11 +2236,25 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 2939
+Installed-Size: 2941
 Filename: kmod-nfnetlink_3.8.10-1_ib42x0.ipk
-Size: 3617
-MD5Sum: b3f4b1d83413ab023706cfb971f771ec
+Size: 3627
+MD5Sum: c16e1e4e198762ea55c59977b2a381f0
 Description:  Kernel modules support for a netlink-based userspace interface
+
+Package: kmod-sound-core
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0), kmod-input-core
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 119894
+Filename: kmod-sound-core_3.8.10-1_ib42x0.ipk
+Size: 120598
+MD5Sum: 6cdcebc5098c2ca12c9be289d70605d2
+Description:  Kernel modules for sound support
 
 Package: ldd
 Version: 0.9.33.2-1
@@ -2412,6 +2508,26 @@ Description:  The libffi library provides a portable, high level programming int
  lowest, machine dependent layer of a fully featured foreign function interface.
  A layer must exist above libffi that handles type conversions for values passed
  between the two languages.
+
+Package: libffmpeg-full
+Version: 0.11.2-2
+Depends: libc, libpthread, zlib, libbz2, alsa-lib
+Provides: libffmpeg
+Source: feeds/packages/multimedia/ffmpeg
+SourceFile: ffmpeg-0.11.2.tar.bz2
+SourceURL: http://ffmpeg.org/releases/
+License: LGPLv2.1+ GPLv2+ LGPLv3
+LicenseFiles: COPYING.GPLv2 COPYING.GPLv3 COPYING.LGPLv2.1 COPYING.LGPLv3
+Section: libs
+Architecture: ib42x0
+Installed-Size: 2892183
+Filename: libffmpeg-full_0.11.2-2_ib42x0.ipk
+Size: 2883051
+MD5Sum: aae37a197ff4f405f1cff898fea8fda5
+Description:  FFmpeg is a a software package that can record, convert and stream digital 
+ audio and video in numerous formats.
+ .
+ This package contains full-featured FFmpeg shared libraries.
 
 Package: libgcc
 Version: 4.6-linaro-1
