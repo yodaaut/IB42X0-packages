@@ -1640,6 +1640,39 @@ Size: 86656
 MD5Sum: ee3eed5bcba1ed59c02f8bf813352664
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
 
+Package: etherwake
+Version: 1.09-3
+Depends: libc
+Source: feeds/packages/net/etherwake
+SourceFile: etherwake_1.09.orig.tar.gz
+SourceURL: http://ftp.debian.org/debian/pool/main/e/etherwake
+Section: net
+Architecture: ib42x0
+Installed-Size: 5124
+Filename: etherwake_1.09-3_ib42x0.ipk
+Size: 5896
+MD5Sum: 05740bf69d21750efd8f614aa851e62c
+Description:  You can wake up WOL compliant Computers which have been powered down to 
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you 
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: ethtool
+Version: 3.7-1
+Depends: libc
+Source: feeds/packages/net/ethtool
+SourceFile: ethtool-3.7.tar.xz
+SourceURL: @KERNEL/software/network/ethtool
+Section: net
+Architecture: ib42x0
+Installed-Size: 81310
+Filename: ethtool_3.7-1_ib42x0.ipk
+Size: 81781
+MD5Sum: d130302e197952a49244c45d9d627de2
+Description:  ethtool is a small utility for examining and tuning your ethernet-based
+ network interface
+
 Package: fcgi
 Version: 2.4.0-1
 Depends: libc, libpthread
@@ -1726,10 +1759,10 @@ SourceURL: http://ipset.netfilter.org
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: ib42x0
-Installed-Size: 55381
+Installed-Size: 55382
 Filename: ipset_6.16.1-1_ib42x0.ipk
-Size: 55651
-MD5Sum: c2def7c3ade16c8137a3fab2b296fc74
+Size: 55612
+MD5Sum: c11a4f4df81c5a6dd6a846201d849121
 Description:  IPset administration utility
 
 Package: jshn
@@ -1756,10 +1789,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 4513
+Installed-Size: 4508
 Filename: kmod-crypto-authenc_3.8.10-1_ib42x0.ipk
-Size: 5181
-MD5Sum: 4228e9136c628dcd1d0ba1fd7ce09032
+Size: 5176
+MD5Sum: 969f5b3ac7c453cc59828b14290e7a14
 Description:  Combined mode wrapper for IPsec
 
 Package: kmod-crypto-cbc
@@ -1772,8 +1805,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 105
 Filename: kmod-crypto-cbc_3.8.10-1_ib42x0.ipk
-Size: 664
-MD5Sum: 691d52dcd098a90c97a280cafb0b0d46
+Size: 668
+MD5Sum: 0637378f70ba021be55dffaf83d42bc3
 Description:  Cipher Block Chaining CryptoAPI module
 
 Package: kmod-crypto-core
@@ -1784,10 +1817,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 104
+Installed-Size: 105
 Filename: kmod-crypto-core_3.8.10-1_ib42x0.ipk
-Size: 640
-MD5Sum: 4beaecea1910a1a028a8179e4866e413
+Size: 642
+MD5Sum: 7a7b12b68c9633405ec8c060d9ede5b0
 Description:  Core CryptoAPI modules
 
 Package: kmod-crypto-deflate
@@ -1798,10 +1831,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 103
+Installed-Size: 105
 Filename: kmod-crypto-deflate_3.8.10-1_ib42x0.ipk
-Size: 664
-MD5Sum: bed874eab7cd3f5f22ec838b156c5222
+Size: 667
+MD5Sum: 620176a7a5c5811fcd8392bf5581c1ac
 Description:  Deflate compression CryptoAPI module
 
 Package: kmod-crypto-des
@@ -1814,8 +1847,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 105
 Filename: kmod-crypto-des_3.8.10-1_ib42x0.ipk
-Size: 654
-MD5Sum: 416a3c8a307b5a7df3f476ef88bac1b9
+Size: 655
+MD5Sum: 4ec9c90bfc4638fa1f14455670ffa64f
 Description:  DES/3DES cipher CryptoAPI module
 
 Package: kmod-crypto-hash
@@ -1826,10 +1859,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 104
+Installed-Size: 105
 Filename: kmod-crypto-hash_3.8.10-1_ib42x0.ipk
-Size: 644
-MD5Sum: c939cd10d14403566224346a1a471b7b
+Size: 647
+MD5Sum: e3cf8aeecad1ec83bd04b604d000400b
 Description:  CryptoAPI hash support
 
 Package: kmod-crypto-hmac
@@ -1840,10 +1873,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 103
+Installed-Size: 105
 Filename: kmod-crypto-hmac_3.8.10-1_ib42x0.ipk
-Size: 657
-MD5Sum: 1c7251e6e2fc6a5cd6431c06bebe843d
+Size: 660
+MD5Sum: 8c5107c0177e774764935b27313b0f3b
 Description:  HMAC digest CryptoAPI module
 
 Package: kmod-crypto-iv
@@ -1854,10 +1887,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 105
+Installed-Size: 104
 Filename: kmod-crypto-iv_3.8.10-1_ib42x0.ipk
-Size: 669
-MD5Sum: 64ac0e081e76d6e519021a82029f1303
+Size: 666
+MD5Sum: e657572c1be0d911927ae7458010e157
 Description:  CryptoAPI initialization vectors
 
 Package: kmod-crypto-manager
@@ -1868,10 +1901,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 104
+Installed-Size: 105
 Filename: kmod-crypto-manager_3.8.10-1_ib42x0.ipk
-Size: 653
-MD5Sum: bd735a512097c206313041199a781ce2
+Size: 655
+MD5Sum: f730dd520b415da6f164b98fc36194fa
 Description:  CryptoAPI algorithm manager
 
 Package: kmod-crypto-md5
@@ -1882,10 +1915,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 104
+Installed-Size: 105
 Filename: kmod-crypto-md5_3.8.10-1_ib42x0.ipk
-Size: 655
-MD5Sum: 68e54855d39754bf5e1a53ec6684f79f
+Size: 658
+MD5Sum: cd264164a0168eda4593f09e57e00644
 Description:  MD5 digest CryptoAPI module
 
 Package: kmod-crypto-rng
@@ -1898,8 +1931,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 105
 Filename: kmod-crypto-rng_3.8.10-1_ib42x0.ipk
-Size: 653
-MD5Sum: cbeb7dd8575b176a1e02c12a6dfe5b7b
+Size: 655
+MD5Sum: 7fa82e35660386137f944b69475f7dea
 Description:  CryptoAPI random number generation
 
 Package: kmod-crypto-sha1
@@ -1910,10 +1943,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 104
+Installed-Size: 105
 Filename: kmod-crypto-sha1_3.8.10-1_ib42x0.ipk
-Size: 657
-MD5Sum: 7092f9164d5c0aa12e7fcd81ff14d2fa
+Size: 658
+MD5Sum: 30e050d73bc1b05e89747344517a52f1
 Description:  SHA1 digest CryptoAPI module
 
 Package: kmod-crypto-user
@@ -1924,10 +1957,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 9667
+Installed-Size: 9665
 Filename: kmod-crypto-user_3.8.10-1_ib42x0.ipk
-Size: 10346
-MD5Sum: 19002f9655854ae28ce0ff5455a4dd0f
+Size: 10348
+MD5Sum: 513a68b5bfa04d850253196cd94baa62
 Description:  CryptoAPI userspace interface
 
 Package: kmod-crypto-wq
@@ -1941,8 +1974,22 @@ Architecture: ib42x0
 Installed-Size: 105
 Filename: kmod-crypto-wq_3.8.10-1_ib42x0.ipk
 Size: 652
-MD5Sum: b820e389645ea0d625eaddf294ac7650
+MD5Sum: 43c08f7bf3c6b12d5eb28ab57eb79efd
 Description:  CryptoAPI work queue handling
+
+Package: kmod-dm
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0)
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 61855
+Filename: kmod-dm_3.8.10-1_ib42x0.ipk
+Size: 62613
+MD5Sum: dbf94ddf12864048cd894c814ee3ee24
+Description:  Kernel module necessary for LVM2 support
 
 Package: kmod-ipsec4
 Version: 3.8.10-1
@@ -1952,10 +1999,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 13573
+Installed-Size: 13575
 Filename: kmod-ipsec4_3.8.10-1_ib42x0.ipk
-Size: 14297
-MD5Sum: a5fd4e5b1d410c7967525f6b1bc2e019
+Size: 14296
+MD5Sum: c2f41da739b85005b4dec2675bd72d47
 Description:  Kernel modules for IPsec support in IPv4.
  Includes:
  - ah4
@@ -1974,10 +2021,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 14118
+Installed-Size: 14119
 Filename: kmod-ipsec6_3.8.10-1_ib42x0.ipk
 Size: 14851
-MD5Sum: e3550f1df56a6d036e5e85dbfe31fc8e
+MD5Sum: 6a203d74fa892b2395211b9d75f4b0a9
 Description:  Kernel modules for IPsec support in IPv6.
  Includes:
  - ah6
@@ -1996,10 +2043,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 32987
+Installed-Size: 32984
 Filename: kmod-ipsec_3.8.10-1_ib42x0.ipk
-Size: 33824
-MD5Sum: 891ed80682551313c05257bcff7559af
+Size: 33802
+MD5Sum: e4aad78990204d527b355519cb57c1d8
 Description:  Kernel modules for IPsec support in both IPv4 and IPv6.
  Includes:
  - af_key
@@ -2014,10 +2061,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 27494
+Installed-Size: 27498
 Filename: kmod-ipt-core_3.8.10-1_ib42x0.ipk
-Size: 28189
-MD5Sum: c1933b261b1c818ecb42013cf9ca800f
+Size: 28205
+MD5Sum: e58979d4d1c93c7a2a5f958acb2f08d3
 Description:  Netfilter core kernel modules
  Includes:
  - comment
@@ -2037,10 +2084,10 @@ SourceURL: http://ipset.netfilter.org
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: ib42x0
-Installed-Size: 86259
+Installed-Size: 86260
 Filename: kmod-ipt-ipset_3.8.10+6.16.1-1_ib42x0.ipk
-Size: 86680
-MD5Sum: 53e308c06cdb035ecad0f0f88a476239
+Size: 86706
+MD5Sum: 43059d6268e60c987ab3487b9a3f7090
 Description:  IPset netfilter modules
 
 Package: kmod-iptunnel4
@@ -2051,10 +2098,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 2046
+Installed-Size: 2044
 Filename: kmod-iptunnel4_3.8.10-1_ib42x0.ipk
-Size: 2692
-MD5Sum: 7e618b431c279d12dcf0da472015231b
+Size: 2681
+MD5Sum: a014adfb86eab37f7b1c629eb1592074
 Description:  Kernel modules for IPv4 tunneling
 
 Package: kmod-iptunnel6
@@ -2065,10 +2112,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 2083
+Installed-Size: 2077
 Filename: kmod-iptunnel6_3.8.10-1_ib42x0.ipk
-Size: 2730
-MD5Sum: 2e0167ece3c9eb143c3ee75fdb5c853d
+Size: 2722
+MD5Sum: 634774fc84ed7f056a4cc685a07fcf1a
 Description:  Kernel modules for IPv6 tunneling
 
 Package: kmod-ipv6
@@ -2079,10 +2126,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 138358
+Installed-Size: 138363
 Filename: kmod-ipv6_3.8.10-1_ib42x0.ipk
-Size: 138838
-MD5Sum: 1952c9ec9985dead9c3cb814563e4a10
+Size: 138846
+MD5Sum: 6af2521b5fd14729d1046be3dc333444
 Description:  Kernel modules for IPv6 support
 
 Package: kmod-lib-zlib
@@ -2095,8 +2142,8 @@ Status: unknown hold not-installed
 Architecture: ib42x0
 Installed-Size: 105
 Filename: kmod-lib-zlib_3.8.10-1_ib42x0.ipk
-Size: 634
-MD5Sum: 7307f834fd493e4e3cfdf8077f01d0d6
+Size: 631
+MD5Sum: 0ec4854b46da5221f9c2d38946faf9ef
 Description:  Zlib support
 
 Package: kmod-nfnetlink
@@ -2107,10 +2154,10 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ib42x0
-Installed-Size: 2939
+Installed-Size: 2940
 Filename: kmod-nfnetlink_3.8.10-1_ib42x0.ipk
-Size: 3622
-MD5Sum: acf33127f12e79b51109380943179428
+Size: 3623
+MD5Sum: 711f89ea2f36732d35e528b1ac970342
 Description:  Kernel modules support for a netlink-based userspace interface
 
 Package: ldd
@@ -2265,6 +2312,21 @@ Filename: libdbus_1.4.14-2_ib42x0.ipk
 Size: 97740
 MD5Sum: 491618bf69b7f67b126896c49e8ef2fe
 Description:  Simple interprocess messaging system (library)
+
+Package: libdevmapper
+Version: 2.02.96-1
+Depends: libc, kmod-dm
+Source: feeds/packages/utils/lvm2
+SourceFile: LVM2.2.02.96.tgz
+SourceURL: ftp://sources.redhat.com/pub/lvm2
+Section: libs
+Architecture: ib42x0
+Installed-Size: 89399
+Filename: libdevmapper_2.02.96-1_ib42x0.ipk
+Size: 90027
+MD5Sum: c1b0e22970e369af4969a378b608872d
+Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
+ volume management. It is required by LVM2 and EVMS.
 
 Package: libelf1
 Version: 0.155-1
@@ -2656,6 +2718,27 @@ Size: 28167
 MD5Sum: ca824352874813cc39c95caba6e3ae35
 Description:  POSIX thread library
 
+Package: libreadline
+Version: 6.2-1
+Depends: libc
+Source: package/libs/libreadline
+SourceFile: readline-6.2.tar.gz
+SourceURL: @GNU/readline
+License: GPLv3
+LicenseFiles: COPYING
+Section: libs
+Architecture: ib42x0
+Installed-Size: 118612
+Filename: libreadline_6.2-1_ib42x0.ipk
+Size: 118002
+MD5Sum: 0a55325e244f8a4c4bf321dbc681ee59
+Description:  The Readline library provides a set of functions for use by applications 
+ that allow users to edit command lines as they are typed in. Both Emacs 
+ and vi editing modes are available. The Readline library includes 
+ additional functions to maintain a list of previously-entered command 
+ lines, to recall and perhaps reedit those lines, and perform csh-like 
+ history expansion on previous commands.
+
 Package: librt
 Version: 0.9.33.2-1
 Depends: libpthread
@@ -2856,6 +2939,22 @@ Filename: libxml2_2.9.0-2_ib42x0.ipk
 Size: 459766
 MD5Sum: d813109d0777b188828d0d90bcf304ba
 Description:  A library for manipulating XML and HTML resources.
+
+Package: lvm2
+Version: 2.02.96-1
+Depends: libc, libdevmapper, libreadline, libncurses
+Source: feeds/packages/utils/lvm2
+SourceFile: LVM2.2.02.96.tgz
+SourceURL: ftp://sources.redhat.com/pub/lvm2
+Section: utils
+Architecture: ib42x0
+Installed-Size: 370126
+Filename: lvm2_2.02.96-1_ib42x0.ipk
+Size: 370551
+MD5Sum: dcc29d1fa493de925a38a45257b107b4
+Description:  LVM2 refers to a new userspace toolset that provide logical volume management
+ facilities on linux. It is reasonably backwards-compatible with the original
+ LVM toolset.
 
 Package: mdadm
 Version: 3.2.6-1
@@ -3137,6 +3236,23 @@ Description:  Subversion is a free/open-source version control system. That is,
  examine the history of how your data changed. In this regard, many
  people think of a version control system as a sort of time machine.
  This package contains the subversion server.
+
+Package: sudo
+Version: 1.7.8p1-1
+Depends: libc
+Source: feeds/packages/admin/sudo
+SourceFile: sudo-1.7.8p1.tar.gz
+SourceURL: http://www.sudo.ws/sudo/dist
+Section: admin
+Architecture: ib42x0
+Installed-Size: 105945
+Filename: sudo_1.7.8p1-1_ib42x0.ipk
+Size: 106746
+MD5Sum: c7b6a315f23fce69a1d988bc693ebd5d
+Description:  Sudo (su "do") allows a system administrator to delegate authority to
+ give certain users (or groups of users) the ability to run some (or
+ all) commands as root or another user while providing an audit trail of
+ the commands and their arguments.
 
 Package: swap-utils
 Version: 2.21.2-1
