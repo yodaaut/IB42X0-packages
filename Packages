@@ -60,6 +60,41 @@ Description:  Scripts used to mount and check block devices (filesystems and swa
  This allows one to have the root filesystem on devices other than the built in flash
  device.
 
+Package: bzip2
+Version: 1.0.6-1
+Depends: libc, libbz2
+Source: feeds/packages/utils/bzip2
+SourceFile: bzip2-1.0.6.tar.gz
+SourceURL: http://www.bzip.org/1.0.6
+License: BZIP2
+LicenseFiles: LICENSE
+Section: utils
+Architecture: ib42x0
+Installed-Size: 13446
+Filename: bzip2_1.0.6-1_ib42x0.ipk
+Size: 14057
+MD5Sum: cfdee76f1c4a07258a4b49d0bfda99ca
+Description:  bzip2 is a freely available, patent free, high-quality
+ data compressor. This package provides the binary.
+
+Package: clearsilver
+Version: 0.10.5-5
+Depends: libc, zlib
+Source: feeds/packages/libs/clearsilver
+SourceFile: clearsilver-0.10.5.tar.gz
+SourceURL: http://www.clearsilver.net/downloads/
+Section: libs
+Maintainer: Raphaël HUCK <rhk@cksum.org>
+Architecture: ib42x0
+Installed-Size: 140
+Filename: clearsilver_0.10.5-5_ib42x0.ipk
+Size: 868
+MD5Sum: 9d505de0c472bcb43f08156d1c855d2d
+Description:  Clearsilver is a fast, powerful, and language-neutral HTML template system. In
+ both static content sites and dynamic HTML applications, it provides a separation
+ between presentation code and application logic which makes working with your
+ project easier.
+
 Package: coreutils-base64
 Version: 8.9-1
 Depends: libc, coreutils
@@ -1605,6 +1640,68 @@ Size: 86656
 MD5Sum: ee3eed5bcba1ed59c02f8bf813352664
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
 
+Package: fcgi
+Version: 2.4.0-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/fcgi
+SourceFile: fcgi-2.4.0.tar.gz
+SourceURL: http://www.fastcgi.com/dist/
+Section: libs
+Architecture: ib42x0
+Installed-Size: 19413
+Filename: fcgi_2.4.0-1_ib42x0.ipk
+Size: 19946
+MD5Sum: 81ac6f5349f12ed52cd8123853157cde
+Description:  FastCGI is a language independent, scalable, open extension to
+ CGI that provides high performance without the limitations of
+ server specific APIs.
+
+Package: file
+Version: 5.11-1
+Depends: libc, libmagic
+Source: feeds/packages/libs/file
+SourceFile: file-5.11.tar.gz
+SourceURL: ftp://ftp.astron.com/pub/file/
+License: BSD-2c
+LicenseFiles: COPYING
+Section: utils
+Architecture: ib42x0
+Installed-Size: 100739
+Filename: file_5.11-1_ib42x0.ipk
+Size: 101452
+MD5Sum: 59dc0a4bfcbfc7c42471ffb6a83bdcd4
+Description:  utility
+
+Package: git
+Version: 1.7.11.2-1
+Depends: libc, libopenssl, libpthread
+Source: feeds/packages/net/git
+SourceFile: git-1.7.11.2.tar.gz
+SourceURL: http://git-core.googlecode.com/files/
+Section: net
+Architecture: ib42x0
+Installed-Size: 646006
+Filename: git_1.7.11.2-1_ib42x0.ipk
+Size: 646086
+MD5Sum: 860ccc21918db43af4eb70c9b2c0f549
+Description:  Git is a free & open source, distributed version control system
+ designed to handle everything from small to very large projects
+ with speed and efficiency.
+
+Package: gzip
+Version: 1.4-3
+Depends: libc
+Source: feeds/packages/utils/gzip
+SourceFile: gzip-1.4.tar.gz
+SourceURL: @GNU/gzip
+Section: utils
+Architecture: ib42x0
+Installed-Size: 39244
+Filename: gzip_1.4-3_ib42x0.ipk
+Size: 40103
+MD5Sum: 24796171c61380946ec8ff4707082b1b
+Description:  gzip (GNU zip) is a compression utility designed to be a replacement for compress.
+
 Package: iconv
 Version: 1.11.1-1
 Depends: libc, libiconv-full, libcharset
@@ -1619,6 +1716,21 @@ Filename: iconv_1.11.1-1_ib42x0.ipk
 Size: 10738
 MD5Sum: 7742c59191e0edfab3bf4b257daa83a5
 Description:  Character set conversion utility
+
+Package: ipset
+Version: 6.16.1-1
+Depends: libc, iptables-mod-ipset, kmod-ipt-ipset, libmnl
+Source: package/network/utils/ipset
+SourceFile: ipset-6.16.1.tar.bz2
+SourceURL: http://ipset.netfilter.org
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 55381
+Filename: ipset_6.16.1-1_ib42x0.ipk
+Size: 55649
+MD5Sum: 0f3e83c6c0f565f0bce53bf78bff7e37
+Description:  IPset administration utility
 
 Package: jshn
 Version: 2013-04-15-dcf93f332270bdaddb5d24fdba6e3eb5b1f7d80a
@@ -1636,6 +1748,371 @@ Size: 5760
 MD5Sum: b30a1afc9b96a463dd66e691979ce6cb
 Description:  Library for parsing and generating JSON from shell scripts
 
+Package: kmod-crypto-authenc
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0), kmod-crypto-manager, kmod-crypto-core
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 4509
+Filename: kmod-crypto-authenc_3.8.10-1_ib42x0.ipk
+Size: 5176
+MD5Sum: 748668a620dff93c28ac6143f71f8b2f
+Description:  Combined mode wrapper for IPsec
+
+Package: kmod-crypto-cbc
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0), kmod-crypto-manager, kmod-crypto-core
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 106
+Filename: kmod-crypto-cbc_3.8.10-1_ib42x0.ipk
+Size: 666
+MD5Sum: 9967d4416d6117f521a794de59b95f6a
+Description:  Cipher Block Chaining CryptoAPI module
+
+Package: kmod-crypto-core
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0)
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 105
+Filename: kmod-crypto-core_3.8.10-1_ib42x0.ipk
+Size: 641
+MD5Sum: de371f3a280066413f4fc82938a01161
+Description:  Core CryptoAPI modules
+
+Package: kmod-crypto-deflate
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0), kmod-lib-zlib, kmod-crypto-core
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 105
+Filename: kmod-crypto-deflate_3.8.10-1_ib42x0.ipk
+Size: 665
+MD5Sum: 89588e01ace3e27c776af0cf4aca7955
+Description:  Deflate compression CryptoAPI module
+
+Package: kmod-crypto-des
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0), kmod-crypto-core
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 105
+Filename: kmod-crypto-des_3.8.10-1_ib42x0.ipk
+Size: 654
+MD5Sum: 193f03ae34be357543d5a918c54c6850
+Description:  DES/3DES cipher CryptoAPI module
+
+Package: kmod-crypto-hash
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0), kmod-crypto-core
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 106
+Filename: kmod-crypto-hash_3.8.10-1_ib42x0.ipk
+Size: 645
+MD5Sum: f07218b7f1f7759d03e52d40a316eb99
+Description:  CryptoAPI hash support
+
+Package: kmod-crypto-hmac
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0), kmod-crypto-manager, kmod-crypto-core
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 105
+Filename: kmod-crypto-hmac_3.8.10-1_ib42x0.ipk
+Size: 660
+MD5Sum: 3e9e5cc9319f4ad7f2f897a70b7ad729
+Description:  HMAC digest CryptoAPI module
+
+Package: kmod-crypto-iv
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0), kmod-crypto-manager, kmod-crypto-rng, kmod-crypto-wq, kmod-crypto-core
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 106
+Filename: kmod-crypto-iv_3.8.10-1_ib42x0.ipk
+Size: 665
+MD5Sum: a9f39b23fc9ba5301d7fdbdcb71282e1
+Description:  CryptoAPI initialization vectors
+
+Package: kmod-crypto-manager
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0), kmod-crypto-hash, kmod-crypto-core
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 105
+Filename: kmod-crypto-manager_3.8.10-1_ib42x0.ipk
+Size: 656
+MD5Sum: 9bf7596d5dcac74517958526342e3da6
+Description:  CryptoAPI algorithm manager
+
+Package: kmod-crypto-md5
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0), kmod-crypto-hash, kmod-crypto-core
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 106
+Filename: kmod-crypto-md5_3.8.10-1_ib42x0.ipk
+Size: 656
+MD5Sum: fe13df5b386c6f695a2386f9ed98af4a
+Description:  MD5 digest CryptoAPI module
+
+Package: kmod-crypto-rng
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0), kmod-crypto-core
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 105
+Filename: kmod-crypto-rng_3.8.10-1_ib42x0.ipk
+Size: 655
+MD5Sum: 6c485d318d42ef649eb4222a21bb3423
+Description:  CryptoAPI random number generation
+
+Package: kmod-crypto-sha1
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0), kmod-crypto-hash, kmod-crypto-core
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 106
+Filename: kmod-crypto-sha1_3.8.10-1_ib42x0.ipk
+Size: 656
+MD5Sum: 3d1a72e64f913d428399a0771856ea40
+Description:  SHA1 digest CryptoAPI module
+
+Package: kmod-crypto-user
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0), kmod-crypto-hash, kmod-crypto-manager, kmod-crypto-core
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 9667
+Filename: kmod-crypto-user_3.8.10-1_ib42x0.ipk
+Size: 10353
+MD5Sum: c0ac51908554ef554bbb77a2f03acb4c
+Description:  CryptoAPI userspace interface
+
+Package: kmod-crypto-wq
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0), kmod-crypto-core
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 105
+Filename: kmod-crypto-wq_3.8.10-1_ib42x0.ipk
+Size: 652
+MD5Sum: 851caf9109fe6a32620b49a7316a28dc
+Description:  CryptoAPI work queue handling
+
+Package: kmod-ipsec4
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0), kmod-ipsec, kmod-iptunnel4
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 13576
+Filename: kmod-ipsec4_3.8.10-1_ib42x0.ipk
+Size: 14315
+MD5Sum: a5fcec1e05cd6d945118410a5ad9a0c7
+Description:  Kernel modules for IPsec support in IPv4.
+ Includes:
+ - ah4
+ - esp4
+ - ipcomp4
+ - xfrm4_mode_beet
+ - xfrm4_mode_transport
+ - xfrm4_mode_tunnel
+ - xfrm4_tunnel
+
+Package: kmod-ipsec6
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0), kmod-ipsec, kmod-iptunnel6
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 14114
+Filename: kmod-ipsec6_3.8.10-1_ib42x0.ipk
+Size: 14844
+MD5Sum: 92f566a985ec34ed0a1c6a5e9350e1c8
+Description:  Kernel modules for IPsec support in IPv6.
+ Includes:
+ - ah6
+ - esp6
+ - ipcomp6
+ - xfrm6_mode_beet
+ - xfrm6_mode_transport
+ - xfrm6_mode_tunnel
+ - xfrm6_tunnel
+
+Package: kmod-ipsec
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0), kmod-crypto-authenc, kmod-crypto-iv, kmod-crypto-des, kmod-crypto-hmac, kmod-crypto-md5, kmod-crypto-sha1, kmod-crypto-deflate, kmod-crypto-cbc
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 32981
+Filename: kmod-ipsec_3.8.10-1_ib42x0.ipk
+Size: 33802
+MD5Sum: 71a339d135357154ce7f260e0433c964
+Description:  Kernel modules for IPsec support in both IPv4 and IPv6.
+ Includes:
+ - af_key
+ - xfrm_ipcomp
+ - xfrm_user
+
+Package: kmod-ipt-core
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0)
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 27485
+Filename: kmod-ipt-core_3.8.10-1_ib42x0.ipk
+Size: 28196
+MD5Sum: 806e57ce419e59790066924a74394290
+Description:  Netfilter core kernel modules
+ Includes:
+ - comment
+ - limit
+ - LOG
+ - mac
+ - multiport
+ - REJECT
+ - TCPMSS
+
+Package: kmod-ipt-ipset
+Version: 3.8.10+6.16.1-1
+Depends: kernel (=3.8.10-1-ib42x0), kmod-ipt-core, kmod-nfnetlink
+Source: package/network/utils/ipset
+SourceFile: ipset-6.16.1.tar.bz2
+SourceURL: http://ipset.netfilter.org
+Section: kernel
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 86261
+Filename: kmod-ipt-ipset_3.8.10+6.16.1-1_ib42x0.ipk
+Size: 86689
+MD5Sum: b4f02f31a0ace0937a1ccee6e4a1eeb6
+Description:  IPset netfilter modules
+
+Package: kmod-iptunnel4
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0)
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 2046
+Filename: kmod-iptunnel4_3.8.10-1_ib42x0.ipk
+Size: 2693
+MD5Sum: ff95031e415b21821ec0c97fc9b19ce6
+Description:  Kernel modules for IPv4 tunneling
+
+Package: kmod-iptunnel6
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0), kmod-ipv6
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 2085
+Filename: kmod-iptunnel6_3.8.10-1_ib42x0.ipk
+Size: 2738
+MD5Sum: ae6104b447651639747d432257fa904a
+Description:  Kernel modules for IPv6 tunneling
+
+Package: kmod-ipv6
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0)
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 138358
+Filename: kmod-ipv6_3.8.10-1_ib42x0.ipk
+Size: 138846
+MD5Sum: 7a7eaaa2d5dabe9cd389c52bbc578ac4
+Description:  Kernel modules for IPv6 support
+
+Package: kmod-lib-zlib
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0)
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 105
+Filename: kmod-lib-zlib_3.8.10-1_ib42x0.ipk
+Size: 634
+MD5Sum: da7285025e988e80757acab8581d5a1c
+Description:  Zlib support
+
+Package: kmod-nfnetlink
+Version: 3.8.10-1
+Depends: kernel (=3.8.10-1-ib42x0), kmod-ipt-core
+Source: package/kernel
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ib42x0
+Installed-Size: 2938
+Filename: kmod-nfnetlink_3.8.10-1_ib42x0.ipk
+Size: 3618
+MD5Sum: bb8b26c5123d2d1903cdd90cdce2330d
+Description:  Kernel modules support for a netlink-based userspace interface
+
 Package: ldd
 Version: 0.9.33.2-1
 Source: package/toolchain
@@ -1649,6 +2126,34 @@ Filename: ldd_0.9.33.2-1_ib42x0.ipk
 Size: 5322
 MD5Sum: 25addcbb6d6067dfb2723dc082d125bd
 Description:  LDD trace utility
+
+Package: libapr
+Version: 1.4.5-2
+Depends: libc, libpthread, librt, libuuid
+Source: feeds/packages/libs/apr
+SourceFile: apr-1.4.5.tar.bz2
+SourceURL: http://www.ibiblio.org/pub/mirrors/apache/apr
+Section: libs
+Architecture: ib42x0
+Installed-Size: 62666
+Filename: libapr_1.4.5-2_ib42x0.ipk
+Size: 62837
+MD5Sum: 2c3fc2f1ed860d0e51ab713dbdb44773
+Description:  Apache Portable Runtime Library
+
+Package: libaprutil
+Version: 1.3.12-2
+Depends: libc, libapr, libexpat, libsqlite3, libuuid
+Source: feeds/packages/libs/apr-util
+SourceFile: apr-util-1.3.12.tar.bz2
+SourceURL: http://www.ibiblio.org/pub/mirrors/apache/apr
+Section: libs
+Architecture: ib42x0
+Installed-Size: 48728
+Filename: libaprutil_1.3.12-2_ib42x0.ipk
+Size: 49081
+MD5Sum: 7f290fe95d7771af5e6759127773bc6a
+Description:  Apache Portable Runtime Utility Library
 
 Package: libblkid
 Version: 2.21.2-1
@@ -1685,6 +2190,23 @@ Size: 4079
 MD5Sum: f66ac054efb4691b8720ea1ff03ff99f
 Description:  blobmsg <-> json conversion library
 
+Package: libbz2
+Version: 1.0.6-1
+Depends: libc
+Source: feeds/packages/utils/bzip2
+SourceFile: bzip2-1.0.6.tar.gz
+SourceURL: http://www.bzip.org/1.0.6
+License: BZIP2
+LicenseFiles: LICENSE
+Section: libs
+Architecture: ib42x0
+Installed-Size: 25474
+Filename: libbz2_1.0.6-1_ib42x0.ipk
+Size: 26036
+MD5Sum: 85cf14f52176dfd20dfac400b6e3457e
+Description:  bzip2 is a freely available, patent free, high-quality
+ data compressor. This packages provides libbz2 library.
+
 Package: libcharset
 Version: 1.11.1-1
 Depends: libc
@@ -1713,6 +2235,22 @@ Filename: libcom_err_1.42.4-1_ib42x0.ipk
 Size: 4776
 MD5Sum: c2730068256e2766b189a7f8ae47ea66
 Description:  libcom_err is a library providing common error descriptions
+
+Package: libcurl
+Version: 7.29.0-1
+Depends: libc, libopenssl, zlib
+Source: feeds/packages/libs/curl
+SourceFile: curl-7.29.0.tar.bz2
+SourceURL: http://curl.haxx.se/download/ http://www.mirrorspace.org/curl/ http://curl.mirror.internet.tp/download/ ftp://ftp.sunet.se/pub/www/utilities/curl/ ftp://ftp.planetmirror.com/pub/curl/ http://www.mirrormonster.com/curl/download/ http://curl.mirrors.cyberservers.net/download/
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Architecture: ib42x0
+Installed-Size: 124502
+Filename: libcurl_7.29.0-1_ib42x0.ipk
+Size: 124914
+MD5Sum: 4c566955002d813c982a76d269bffaee
+Description:  A client-side URL transfer library
 
 Package: libdbus
 Version: 1.4.14-2
@@ -1771,6 +2309,31 @@ Size: 106848
 MD5Sum: d792e279e12aa0f7195884f6d97674f0
 Description:  libext2fs is a library which can access ext2, ext3 and ext4 filesystems.
 
+Package: libffi
+Version: 3.0.11-1
+Depends: libc
+Source: feeds/packages/libs/libffi
+SourceFile: libffi-3.0.11.tar.gz
+SourceURL: ftp://sourceware.org/pub/libffi/
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+Architecture: ib42x0
+Installed-Size: 5278
+Filename: libffi_3.0.11-1_ib42x0.ipk
+Size: 6127
+MD5Sum: 573a5d1108bd21be04e1e99029334ee0
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
 Package: libgcc
 Version: 4.6-linaro-1
 Source: package/toolchain
@@ -1784,6 +2347,27 @@ Filename: libgcc_4.6-linaro-1_ib42x0.ipk
 Size: 21174
 MD5Sum: a70bdfa9a3cf02ab4dc7d2c04482476e
 Description:  GCC support library
+
+Package: libgcrypt
+Version: 1.5.0-1
+Depends: libc, libgpg-error
+Source: feeds/packages/libs/libgcrypt
+SourceFile: libgcrypt-1.5.0.tar.bz2
+SourceURL: ftp://ftp.gnupg.org/gcrypt/libgcrypt
+Section: libs
+Architecture: ib42x0
+Installed-Size: 142205
+Filename: libgcrypt_1.5.0-1_ib42x0.ipk
+Size: 142096
+MD5Sum: 436af0787cf1f337ab3f437049c3f126
+Description:  This is a general purpose cryptographic library based on the code from
+ GnuPG. It provides functions for all cryptograhic building blocks:
+ symmetric ciphers (AES, DES, Arcfour, CAST5), hash algorithms (MD5, SHA-1,
+ RIPE-MD160, SHA-224/256, SHA-384/512), MACs (HMAC for all hash
+ algorithms), public key algorithms (RSA, DSA), large integer functions,
+ random numbers and a lot of supporting functions. Some algorithms have
+ been disabled to reduce size (Blowfish, Twofish, Serpent,
+ RC2, SEED, Camellia, CRC, MD4, TIGER-192, Whirlpool, ElGamal, ECC).
 
 Package: libgmp
 Version: 5.1.0-1
@@ -1799,6 +2383,24 @@ Size: 183275
 MD5Sum: 67571ab4ed1d757c536de008cfcf7802
 Description:  GMP is a free library for arbitrary precision arithmetic, operating on
  signed integers, rational numbers, and floating point numbers.
+
+Package: libgpg-error
+Version: 1.9-1
+Depends: libc
+Source: feeds/packages/libs/libgpg-error
+SourceFile: libgpg-error-1.9.tar.bz2
+SourceURL: ftp://ftp.gnupg.org/gcrypt/libgpg-error
+Section: libs
+Architecture: ib42x0
+Installed-Size: 5055
+Filename: libgpg-error_1.9-1_ib42x0.ipk
+Size: 5747
+MD5Sum: 8ac60ebd21c5817109c8c0cedb44f63a
+Description:  An helper library for common error codes and descriptions.
+ This is a library that defines common error values for all GnuPG
+ components. Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
+ Libksba, DirMngr, Pinentry, SmartCard Daemon and possibly more in the
+ future.
 
 Package: libgssglue
 Version: 0.4-1
@@ -1878,6 +2480,133 @@ Size: 9913
 MD5Sum: 197296b5b72780802c20f49029038cd6
 Description:  This package contains a library for javascript object notation backends.
 
+Package: libltdl
+Version: 2.4-1
+Depends: libc
+Source: package/libs/libtool
+SourceFile: libtool-2.4.tar.gz
+SourceURL: @GNU/libtool
+License: GPLv2
+LicenseFiles: COPYING
+Section: libs
+Architecture: ib42x0
+Installed-Size: 13578
+Filename: libltdl_2.4-1_ib42x0.ipk
+Size: 14134
+MD5Sum: 11fb18dc35784ddba9318327b88185e9
+Description:  A generic dynamic object loading library
+
+Package: libmagic
+Version: 5.11-1
+Depends: libc, zlib
+Source: feeds/packages/libs/file
+SourceFile: file-5.11.tar.gz
+SourceURL: ftp://ftp.astron.com/pub/file/
+License: BSD-2c
+LicenseFiles: COPYING
+Section: libs
+Architecture: ib42x0
+Installed-Size: 42373
+Filename: libmagic_5.11-1_ib42x0.ipk
+Size: 42911
+MD5Sum: f2157ad1140124cd2d779855f2deeba4
+Description:  library
+
+Package: libmnl
+Version: 1.0.3-1
+Depends: libc
+Source: package/libs/libmnl
+SourceFile: libmnl-1.0.3.tar.bz2
+SourceURL: http://www.netfilter.org/projects/libmnl/files ftp://ftp.netfilter.org/pub/libmnl
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ib42x0
+Installed-Size: 5324
+Filename: libmnl_1.0.3-1_ib42x0.ipk
+Size: 6401
+MD5Sum: 03e433412fe8f63eef00b4e0e9806e5a
+Description:  libmnl is a minimalistic user-space library oriented to Netlink developers.
+ There are a lot of common tasks in parsing, validating, constructing of
+ both the Netlink header and TLVs that are repetitive and easy to get wrong.
+ This library aims to provide simple helpers that allows you to re-use code
+ and to avoid re-inventing the wheel. The main features of this library are:
+ .
+ * Small: the shared library requires around 30KB for an x86-based computer.
+ .
+ * Simple: this library avoids complexity and elaborated abstractions that
+ tend to hide Netlink details.
+ .
+ * Easy to use: the library simplifies the work for Netlink-wise developers.
+ It provides functions to make socket handling, message building, validating,
+ parsing and sequence tracking, easier.
+ .
+ * Easy to re-use: you can use the library to build your own abstraction layer
+ on top of this library.
+ .
+ * Decoupling: the interdependency of the main bricks that compose the library
+ is reduced, i.e. the library provides many helpers, but the programmer is not
+ forced to use them.
+
+Package: libmysqlclient-r
+Version: 5.1.68-1
+Depends: libc, libstdcpp, zlib, libpthread
+Source: feeds/packages/libs/mysql
+SourceFile: mysql-5.1.68.tar.gz
+SourceURL: http://mysql.he.net/Downloads/MySQL-5.1/ http://www.linorg.usp.br/mysql/Downloads/MySQL-5.1/ http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQL-5.1/ http://mirror.switch.ch/ftp/mirror/mysql/Downloads/MySQL-5.1/ http://downloads.mysql.com/archives/mysql-5.1/
+Section: libs
+Architecture: ib42x0
+Installed-Size: 156448
+Filename: libmysqlclient-r_5.1.68-1_ib42x0.ipk
+Size: 151659
+MD5Sum: 2c4cd26e5c44782aad56a26301e82773
+Description:  MySQL client library threadsafe
+
+Package: libncurses
+Version: 5.9-6
+Depends: libc, terminfo, libncursesw
+Source: package/libs/ncurses
+SourceFile: ncurses-5.9.tar.gz
+SourceURL: @GNU/ncurses
+License: FREE
+LicenseFiles: README
+Section: libs
+Architecture: ib42x0
+Installed-Size: 378
+Filename: libncurses_5.9-6_ib42x0.ipk
+Size: 948
+MD5Sum: 7e19edf852fb459df040f06713249bdb
+Description:  Terminal handling library
+
+Package: libncursesw
+Version: 5.9-6
+Depends: libc, terminfo
+Source: package/libs/ncurses
+SourceFile: ncurses-5.9.tar.gz
+SourceURL: @GNU/ncurses
+License: FREE
+LicenseFiles: README
+Section: libs
+Architecture: ib42x0
+Installed-Size: 131784
+Filename: libncursesw_5.9-6_ib42x0.ipk
+Size: 129987
+MD5Sum: ab9edb8313ea47ceccb938eef6e901af
+Description:  Terminal handling library (Unicode)
+
+Package: libneon
+Version: 0.29.6-2
+Depends: libc, libopenssl, libexpat
+Source: feeds/packages/libs/neon
+SourceFile: neon-0.29.6.tar.gz
+SourceURL: http://www.webdav.org/neon
+Section: libs
+Architecture: ib42x0
+Installed-Size: 54759
+Filename: libneon_0.29.6-2_ib42x0.ipk
+Size: 55089
+MD5Sum: 015607e1f06b8031c7099beabe182057
+Description:  HTTP and WebDAV client library
+
 Package: libnl-tiny
 Version: 0.1-3
 Depends: libc
@@ -1941,6 +2670,24 @@ Filename: librt_0.9.33.2-1_ib42x0.ipk
 Size: 5272
 MD5Sum: 6515e2f28efc449f538cde3d6450d8a8
 Description:  POSIX.1b RealTime extension library
+
+Package: libsqlite3
+Version: 3071201-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/sqlite3
+SourceFile: sqlite-autoconf-3071201.tar.gz
+SourceURL: http://www.sqlite.org
+License: PUBLICDOMAIN
+Section: libs
+Architecture: ib42x0
+Installed-Size: 275710
+Filename: libsqlite3_3071201-1_ib42x0.ipk
+Size: 276151
+MD5Sum: 8690fd118b87ebf6e1a19f3428453928
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
 
 Package: libstdcpp
 Version: 4.6-linaro-1
@@ -2094,6 +2841,22 @@ Description:  libv4l is a collection of libraries which adds a thin abstraction 
  libv4l2 offers the v4l2 API on top of v4l2 devices, while adding for the
  application transparent libv4lconvert conversion where necessary.
 
+Package: libxml2
+Version: 2.9.0-2
+Depends: libc, libpthread, zlib
+Source: feeds/packages/libs/libxml2
+SourceFile: libxml2-2.9.0.tar.gz
+SourceURL: http://gd.tuwien.ac.at/languages/libxml/ http://xmlsoft.org/sources/ ftp://fr.rpmfind.net/pub/libxml/
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Architecture: ib42x0
+Installed-Size: 462424
+Filename: libxml2_2.9.0-2_ib42x0.ipk
+Size: 459766
+MD5Sum: d813109d0777b188828d0d90bcf304ba
+Description:  A library for manipulating XML and HTML resources.
+
 Package: mdadm
 Version: 3.2.6-1
 Depends: libc
@@ -2108,6 +2871,21 @@ Size: 191880
 MD5Sum: dd26a0579e6ab0dc6a79ba741495638d
 Description:  A tool for managing Linux Software RAID arrays.
 
+Package: mercurial
+Version: 1.8.4-1
+Depends: libc, python
+Source: feeds/packages/net/mercurial
+SourceFile: mercurial-1.8.4.tar.gz
+SourceURL: http://mercurial.selenic.com/release
+Section: net
+Architecture: ib42x0
+Installed-Size: 1384814
+Filename: mercurial_1.8.4-1_ib42x0.ipk
+Size: 1385036
+MD5Sum: d4ec83652cfa23f9ae5e53ac6cf80b2e
+Description:  A fast, lightweight Source Control Management system designed for efficient
+ handling of very large distributed projects.
+
 Package: mtd
 Version: 20
 Depends: libc
@@ -2121,6 +2899,37 @@ Size: 10936
 MD5Sum: 1c330998bad8369fb63137feb302ffba
 Description:  This package contains an utility useful to upgrade from other firmware or 
  older OpenWrt releases.
+
+Package: nano
+Version: 2.2.6-1
+Depends: libc, libncursesw
+Source: feeds/packages/utils/nano
+SourceFile: nano-2.2.6.tar.gz
+SourceURL: http://www.nano-editor.org/dist/v2.2
+Section: utils
+Maintainer: Bernhard Loos <bernhardloos@googlemail.com>
+Architecture: ib42x0
+Installed-Size: 31550
+Filename: nano_2.2.6-1_ib42x0.ipk
+Size: 32119
+MD5Sum: b45af60b3199ff5b3a0c9c38ed77165c
+Description:  GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
+ of the Pico text editor.
+
+Package: net-tools-route
+Version: 1.60-3
+Depends: libc
+Source: feeds/packages/net/net-tools
+SourceFile: net-tools-1.60.tar.bz2
+SourceURL: http://www.tazenda.demon.co.uk/phil/net-tools/
+Section: net
+Architecture: ib42x0
+Installed-Size: 14249
+Filename: net-tools-route_1.60-3_ib42x0.ipk
+Size: 14778
+MD5Sum: d46725cb7c83c9928d5a83f245beb4da
+Description:  Program route from net-tools.
+ Manipulate the IP routing table.
 
 Package: netifd
 Version: 2013-04-27-e33ab96c8b41867d655e2ee5e4f58a7d3101d9d2
@@ -2192,6 +3001,52 @@ Size: 27399
 MD5Sum: b010a05be4fd60ea429a1aa808befe7f
 Description:  OpenWrt system process manager
 
+Package: python-mini
+Version: 2.7.3-2
+Depends: libc, libpthread, zlib
+Source: feeds/packages/lang/python
+SourceFile: Python-2.7.3.tar.xz
+SourceURL: http://www.python.org/ftp/python/2.7.3
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1333897
+Filename: python-mini_2.7.3-2_ib42x0.ipk
+Size: 1311903
+MD5Sum: 28dbae2abc9e526a76dd3cc7d6e52c22
+Description:  Python is a dynamic object-oriented programming language that can be used
+ for many kinds of software development. It offers strong support for
+ integration with other languages and tools, comes with extensive standard
+ libraries, and can be learned in a few days. Many Python programmers
+ report substantial productivity gains and feel the language encourages
+ the development of higher quality, more maintainable code.
+ .
+ This package contains only a minimal Python install.
+
+Package: python
+Version: 2.7.3-2
+Depends: libc, libpthread, zlib, libffi, python-mini
+Source: feeds/packages/lang/python
+SourceFile: Python-2.7.3.tar.xz
+SourceURL: http://www.python.org/ftp/python/2.7.3
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Architecture: ib42x0
+Installed-Size: 1911938
+Filename: python_2.7.3-2_ib42x0.ipk
+Size: 1910808
+MD5Sum: 2ec695431dae9139ef72ec3669473fdd
+Description:  Python is a dynamic object-oriented programming language that can be used
+ for many kinds of software development. It offers strong support for
+ integration with other languages and tools, comes with extensive standard
+ libraries, and can be learned in a few days. Many Python programmers
+ report substantial productivity gains and feel the language encourages
+ the development of higher quality, more maintainable code.
+ .
+ This package contains the full Python install.
+
 Package: resolveip
 Version: 2
 Depends: libc
@@ -2226,6 +3081,63 @@ MD5Sum: d23fce571b664c9e0e712a4f48399dda
 Description:  A useful diagnostic, instructional, and debugging tool. Allows you to track what
  system calls a program makes while it is running.
 
+Package: subversion-client
+Version: 1.6.17-3
+Depends: libc, zlib, libneon, libaprutil, subversion-libs
+Source: feeds/packages/net/subversion
+SourceFile: subversion-1.6.17.tar.bz2
+SourceURL: http://subversion.tigris.org/downloads
+Section: net
+Architecture: ib42x0
+Installed-Size: 70823
+Filename: subversion-client_1.6.17-3_ib42x0.ipk
+Size: 71379
+MD5Sum: 4954fde91c40eece8a09c107a236b04d
+Description:  Subversion is a free/open-source version control system. That is,
+ Subversion manages files and directories, and the changes made to them,
+ over time. This allows you to recover older versions of your data, or
+ examine the history of how your data changed. In this regard, many
+ people think of a version control system as a sort of time machine.
+ This package contains the subversion client tools.
+
+Package: subversion-libs
+Version: 1.6.17-3
+Depends: libc, zlib, libneon, libaprutil, unixodbc
+Source: feeds/packages/net/subversion
+SourceFile: subversion-1.6.17.tar.bz2
+SourceURL: http://subversion.tigris.org/downloads
+Section: net
+Architecture: ib42x0
+Installed-Size: 551382
+Filename: subversion-libs_1.6.17-3_ib42x0.ipk
+Size: 548203
+MD5Sum: 2a9525d2a4dee2a63880ee0f6c453ce8
+Description:  Subversion is a free/open-source version control system. That is,
+ Subversion manages files and directories, and the changes made to them,
+ over time. This allows you to recover older versions of your data, or
+ examine the history of how your data changed. In this regard, many
+ people think of a version control system as a sort of time machine.
+ This package contains the subversion libraries.
+
+Package: subversion-server
+Version: 1.6.17-3
+Depends: libc, zlib, libneon, libaprutil, subversion-libs
+Source: feeds/packages/net/subversion
+SourceFile: subversion-1.6.17.tar.bz2
+SourceURL: http://subversion.tigris.org/downloads
+Section: net
+Architecture: ib42x0
+Installed-Size: 59152
+Filename: subversion-server_1.6.17-3_ib42x0.ipk
+Size: 59784
+MD5Sum: e95ed6b9282e9e3b1eb01bfb9876be64
+Description:  Subversion is a free/open-source version control system. That is,
+ Subversion manages files and directories, and the changes made to them,
+ over time. This allows you to recover older versions of your data, or
+ examine the history of how your data changed. In this regard, many
+ people think of a version control system as a sort of time machine.
+ This package contains the subversion server.
+
 Package: swap-utils
 Version: 2.21.2-1
 Depends: libc, libblkid
@@ -2241,6 +3153,22 @@ Filename: swap-utils_2.21.2-1_ib42x0.ipk
 Size: 20066
 MD5Sum: ac1eede7683d94f23e769bf7b6a6d437
 Description:  contains: mkswap, swaplabel, swapon, swapoff
+
+Package: terminfo
+Version: 5.9-6
+Depends: libc
+Source: package/libs/ncurses
+SourceFile: ncurses-5.9.tar.gz
+SourceURL: @GNU/ncurses
+License: FREE
+LicenseFiles: README
+Section: libs
+Architecture: ib42x0
+Installed-Size: 5583
+Filename: terminfo_5.9-6_ib42x0.ipk
+Size: 6085
+MD5Sum: 51f5d798ab8b381a8833077ecc041336
+Description:  Terminal Info Database (ncurses)
 
 Package: testusb
 Version: 1
@@ -2334,6 +3262,21 @@ MD5Sum: d1c5deb74d84ed28727eb9f919fd4a95
 Description:  udev allows Linux users to have a dynamic /dev directory and it
  provides the ability to have persistent device names.
 
+Package: unixodbc
+Version: 2.3.1-1
+Depends: libc, libltdl, libpthread
+Source: feeds/packages/libs/unixodbc
+SourceFile: unixODBC-2.3.1.tar.gz
+SourceURL: ftp://ftp.unixodbc.org/pub/unixODBC/
+Section: libs
+Architecture: ib42x0
+Installed-Size: 194788
+Filename: unixodbc_2.3.1-1_ib42x0.ipk
+Size: 195033
+MD5Sum: f80c074e6ad9b443597ec2eb7d575951
+Description:  unixODBC is an Open Source ODBC sub-system and an ODBC SDK for Linux,
+ Mac OSX, and UNIX.
+
 Package: usb-modeswitch-data
 Version: 20121109
 Depends: libc, usb-modeswitch
@@ -2400,6 +3343,51 @@ Description:  The uuidgen program creates (and prints) a new universally unique 
  (UUID) using the libuuid library. The new UUID can reasonably be considered
  unique among all UUIDs created on the local system, and among UUIDs created on
  other systems in the past and in the future.
+
+Package: vim-full
+Version: 7.3-1
+Depends: libc, libncurses
+Source: feeds/packages/utils/vim
+SourceFile: vim-7.3.tar.bz2
+SourceURL: ftp://ftp.vim.org/pub/vim/unix/
+Section: utils
+Architecture: ib42x0
+Installed-Size: 688480
+Filename: vim-full_7.3-1_ib42x0.ipk
+Size: 688467
+MD5Sum: ea0e13b253ad29292c761fed0c06c1d5
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Normal build)
+
+Package: vim-help
+Version: 7.3-1
+Depends: libc, libncurses
+Source: feeds/packages/utils/vim
+SourceFile: vim-7.3.tar.bz2
+SourceURL: ftp://ftp.vim.org/pub/vim/unix/
+Section: utils
+Architecture: ib42x0
+Installed-Size: 1748892
+Filename: vim-help_7.3-1_ib42x0.ipk
+Size: 1749312
+MD5Sum: c26cff3517a85375af05786db45f285e
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Help files)
+
+Package: vim-runtime
+Version: 7.3-1
+Depends: libc, libncurses
+Source: feeds/packages/utils/vim
+SourceFile: vim-7.3.tar.bz2
+SourceURL: ftp://ftp.vim.org/pub/vim/unix/
+Section: utils
+Architecture: ib42x0
+Installed-Size: 1529223
+Filename: vim-runtime_7.3-1_ib42x0.ipk
+Size: 1524626
+MD5Sum: bb566ac7ae9f48afb0b4d66a85f47235
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Runtime files)
 
 Package: wireless-tools
 Version: 29-5
